@@ -1,0 +1,67 @@
+['INFO ]2023-03-20 23:34:32,665(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]utility.LoggerLoad1)-Testing on firefox
+['INFO ]2023-03-20 23:34:32,665(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on chrome
+['INFO ]2023-03-20 23:34:36,568(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-20 23:34:36,601(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-click Get Startedlink on  DataStructures 
+['INFO ]2023-03-20 23:34:48,885(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-20 23:35:11,630(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]utility.LoggerLoad1)-Testing on firefox
+['INFO ]2023-03-20 23:35:11,630(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on chrome
+['INFO ]2023-03-20 23:35:15,203(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-20 23:35:15,240(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-click Get Startedlink on  DataStructures 
+['INFO ]2023-03-20 23:35:27,099(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-20 23:35:27,354(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]utility.LoggerLoad1)-clicking getStarted array button
+['INFO ]2023-03-20 23:36:58,930(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on chrome
+['INFO ]2023-03-20 23:37:02,387(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-20 23:37:02,413(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-click Get Startedlink on  DataStructures 
+['INFO ]2023-03-20 23:37:26,601(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verifying the warn message
+['INFO ]2023-03-20 23:37:27,219(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verify the warn message
+['INFO ]2023-03-20 23:37:32,291(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on firefox
+['INFO ]2023-03-20 23:37:36,228(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-20 23:37:47,517(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]utility.LoggerLoad1)-Testing on firefox
+['INFO ]2023-03-20 23:37:47,517(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on chrome
+['INFO ]2023-03-20 23:37:51,188(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-20 23:37:51,219(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-click Get Startedlink on  DataStructures 
+['INFO ]2023-03-20 23:38:03,438(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-20 23:38:03,675(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]utility.LoggerLoad1)-clicking getStarted array button
+['INFO ]2023-03-20 23:38:55,411(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on chrome
+['INFO ]2023-03-20 23:38:55,411(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]utility.LoggerLoad1)-Testing on firefox
+['INFO ]2023-03-20 23:38:59,176(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-20 23:38:59,214(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-click Get Startedlink on  DataStructures 
+['INFO ]2023-03-20 23:39:11,071(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-20 23:39:11,310(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]utility.LoggerLoad1)-clicking getStarted array button
+['INFO ]2023-03-20 23:40:27,765(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on chrome
+['INFO ]2023-03-20 23:40:31,030(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-20 23:40:31,055(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-click Get Startedlink on  DataStructures 
+['INFO ]2023-03-20 23:40:43,231(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on firefox
+['INFO ]2023-03-20 23:40:47,845(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-20 23:40:48,090(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking getStarted array button
+['INFO ]2023-03-20 23:41:14,795(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]utility.LoggerLoad1)-Testing on firefox
+['INFO ]2023-03-20 23:41:14,795(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on chrome
+['INFO ]2023-03-20 23:41:18,238(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-20 23:41:29,974(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-20 23:41:30,247(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]utility.LoggerLoad1)-clicking getStarted array button
+['INFO ]2023-03-20 23:43:33,201(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Queue is selected
+['INFO ]2023-03-20 23:43:37,124(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Queue is selected
+['INFO ]2023-03-20 23:44:07,833(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on chrome
+['INFO ]2023-03-20 23:44:11,366(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-20 23:44:11,394(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-click Get Startedlink on  DataStructures 
+['INFO ]2023-03-20 23:44:35,456(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verifying the warn message
+['INFO ]2023-03-20 23:44:36,108(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verify the warn message
+['INFO ]2023-03-20 23:45:19,150(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Queue is selected
+['INFO ]2023-03-20 23:45:22,580(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Queue is selected
+['INFO ]2023-03-20 23:45:25,213(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)- clicking graph page
+['INFO ]2023-03-20 23:45:29,261(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)- clicking graph page
+['INFO ]2023-03-20 23:46:23,083(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on firefox
+['INFO ]2023-03-20 23:46:27,130(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-20 23:46:27,340(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking getStarted array button
+['INFO ]2023-03-20 23:46:49,923(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verifying the warn message
+['INFO ]2023-03-20 23:46:50,303(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verify the warn message
+['INFO ]2023-03-20 23:47:38,034(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Queue is selected
+['INFO ]2023-03-20 23:47:41,950(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Queue is selected
+['INFO ]2023-03-20 23:47:45,536(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)- clicking graph page
+['INFO ]2023-03-20 23:47:49,778(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)- clicking graph page
+['INFO ]2023-03-21 14:07:01,755(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on chrome
+['INFO ]2023-03-21 14:07:05,517(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-21 14:07:05,541(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-click Get Startedlink on  DataStructures 
+['INFO ]2023-03-21 14:07:17,680(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on firefox
+['INFO ]2023-03-21 14:07:22,748(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-21 14:07:23,022(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking getStarted array button
