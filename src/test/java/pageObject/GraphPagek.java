@@ -57,6 +57,7 @@ public class GraphPagek extends BaseClass {
 	//@Test(dataProvider = "codedata")
 	public void selectGraphRepresentation(String phythonCode) throws IOException, InterruptedException {
 		Thread.sleep(1000);
+		
 		driver.findElement(topicGraphRep).click();
 		driver.findElement(tryHere).click();
 		Thread.sleep(1000);
