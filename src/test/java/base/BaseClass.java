@@ -25,7 +25,6 @@ public class BaseClass {
 	public void setupApplication() throws IOException
 
 	{
-		
 		props = new Properties();
 		String filePath = "/Users/uvaraj/eclipse-workspace/dsAlgo/src/test/resources/config.properties";
 		FileInputStream inputstream = new FileInputStream(filePath);
