@@ -8,11 +8,12 @@ import org.openqa.selenium.Keys;
 
 import base.BaseClass;
 import utility.ExcelReader;
+import utility.LoggerLoad;
 
 public class ArrayPage extends BaseClass{
 	By dropdown= By.xpath("//a[@class='nav-link dropdown-toggle']");
 	By array=By.xpath("//div[@class='nav-item dropdown show']//div//a[1]");
-	//By arrayphython= By.xpath("//a[text()='Arrays in Python']");
+    By arraypython= By.xpath("//a[text()='Arrays in Python']");
 	By Topic= By.xpath("//body/div/ul['+i+']/a[@class='list-group-item']");
 	By tryHere= By.xpath("//a[contains (text(), 'Try here')]");
 	By textInput= By.xpath("//form[@id='answer_form']/div/div/div[1]/textarea");
@@ -24,26 +25,25 @@ public class ArrayPage extends BaseClass{
 	By maxCons= By.xpath("//a[text()='Max Consecutive Ones']");
 	By findno=By.xpath("//a[text()='Find Numbers with Even Number of Digits']");
 	By square=By.xpath("//a[text()='Squares of  a Sorted Array']");
-	By Topics=By.xpath("//body/div/ul/a[@class='list-group-item']");
+	By TopicS=By.xpath("//body/div/ul/a[@class='list-group-item']");
 	By Run= By.xpath("//button[@type='button']");
 	public void dropdown()
 	{
 		driver.findElement(dropdown).click();
 		driver.findElement(array).click();
+		LoggerLoad.info("user is on Array page");
 	}
 	
 	public void performarray (String phythonCode ) throws IOException
 	{
-		//String[][] code= ExcelReader.getData("sheet2");
-		//int l=code.length;
 		int size= driver.findElements(Topic).size();
 	
 		for(int j=1; j<=size;j++)
 		{
 			By Topic= By.xpath("//body/div/ul[" + j + "]/a[@class='list-group-item']");
+			
 			driver.findElement(Topic).click();
 			driver.findElement(tryHere).click();
-	
 			driver.findElement(textInput).sendKeys(phythonCode);
 			driver.findElement(Run).click();
 	
@@ -55,23 +55,21 @@ public class ArrayPage extends BaseClass{
 				}
 	
 			driver.navigate().back();
-	
-			
 			driver.navigate().back();
 		}
 		
 	}
 	
-	/*public void practiceQsearcharray () throws IOException
+	public void practiceQarray (String Code) throws IOException
 	{
-		driver.findElement(arraysinpython).click();
+		driver.findElement(arraypython).click();
 		System.out.println("after arryinpyton");
-		driver.findElement(practisequestion).click();
+		driver.findElement(practiceQ).click();
 		System.out.println("practisequestion");
 		///driver.findElement(searcharray).click();
 		///System.out.println("searcharray");
 		
-		int size= driver.findElements(insidetopic).size();
+		int size= driver.findElements(Topic).size();
 		System.out.println(size);
 		
 		
@@ -79,17 +77,11 @@ public class ArrayPage extends BaseClass{
 		for(int j=1; j<=size;j++)
 		{
 			By Topic = By.xpath("//body//div[@class='list-group'][" +j+"]");
-			driver.findElement(Topic).click();
-		
-				for(int i=0;i<=35;i++)
-				{
-					driver.findElement(input).sendKeys(Keys.DELETE);
-		
-				}
-				String[][] code= ExcelReader.getData("sheet3");
+			driver.findElement(TopicS).click();
+		    driver.findElement(textInput).sendKeys(Keys.DELETE);
 				
-				driver.findElement(input).sendKeys(code[0]);
-				driver.findElement(run).click();
+			driver.findElement(textInput).sendKeys(Code);
+				driver.findElement(Run).click();
 				System.out.println("after code0");
 				try {
 					driver.switchTo().alert().accept();
@@ -98,10 +90,14 @@ public class ArrayPage extends BaseClass{
 					e.printStackTrace();
 				}
 				driver.navigate().back();
+				}
 				//driver.findElement(searcharray).click();
-				driver.findElement(Topic).click();
+				//driver.findElement(Topic).click();
+	}
+	}
+	
 				
-				for(int i=0;i<=28;i++)
+			/*	for(int i=0;i<=28;i++)
 				{
 					driver.findElement(input).sendKeys(Keys.DELETE);
 		
@@ -120,7 +116,7 @@ public class ArrayPage extends BaseClass{
 				}
 				driver.navigate().back();
 		}	*/
-	}
+//	}
 		
 	
 	

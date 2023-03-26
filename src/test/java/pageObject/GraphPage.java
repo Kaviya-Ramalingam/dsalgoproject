@@ -27,7 +27,7 @@ public class GraphPage extends BaseClass  {
 		
 		driver.findElement(dropDown).click();	
 		driver.findElement(Graph).click();
-		LoggerLoad.info(" clicking graph page");
+		LoggerLoad.info(" user is on graph page");
 		}
 	
 	@Test(dataProvider= "codedata",dataProviderClass = DPclass.class)
@@ -40,11 +40,8 @@ public class GraphPage extends BaseClass  {
 		
 	By Topic= By.xpath("//body/div/ul[" + j+ "]/a[@class='list-group-item']");
 	  
-	//Thread.sleep(1000);
-	
 	    driver.findElement(Topic).click();
 		driver.findElement(tryHere).click();
-		Thread.sleep(1000);
 	    driver.findElement(textInput).sendKeys(phythonCode);
 	    driver.findElement(Run).click();	
 		    
@@ -53,9 +50,8 @@ public class GraphPage extends BaseClass  {
 			}
 			catch(Exception e){
 			}
-				driver.navigate().back();
-	
-		driver.navigate().back();
+		 driver.navigate().back();
+		 driver.navigate().back();
 	 }
 	}
 	

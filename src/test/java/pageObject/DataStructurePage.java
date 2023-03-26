@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 
 import base.BaseClass;
 import utility.DPclass;
+import utility.LoggerLoad;
 
 public class DataStructurePage extends BaseClass{
 	By getStartedDs= By.xpath("//a[@href='data-structures-introduction']");
@@ -22,39 +23,14 @@ public class DataStructurePage extends BaseClass{
 	public void clickdatastructure() throws Exception
 	{
 		driver.findElement(getStartedDs).click();
-		 //driver.findElement(DStimecomplex).click();
-			//driver.findElement(tryHere).click();
-		
+		LoggerLoad.info("user is on datastructure page");	 
 	}
-	//@Test(dataProvider= "codedata",dataProviderClass = DPclass.class)
-	/*public void AccessDS(String phythonCode) throws InterruptedException {
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.findElement(getStartedDs).click();
-		   driver.findElement(DStimecomplex).click();
-		   
-			driver.findElement(tryHere).click();
-		
-			driver.findElement(textInput).sendKeys(phythonCode);
-			driver.findElement(Run).click();
-
-			try {
-				driver.switchTo().alert().accept();
-			}
-			catch(Exception e){
-				//e.printStackTrace();
-			}
-			driver.navigate().back();
-
-			driver.navigate().back();*/
 	
-			public Void AccessDS (String phythonCode) throws IOException, InterruptedException {
-				Thread.sleep(1000);
+	public Void AccessDS (String phythonCode) throws IOException, InterruptedException {
+				
 				driver.findElement(DStimecomplex).click();
 				driver.findElement(tryHere).click();
-				Thread.sleep(1000);
-				WebElement entercode = driver.findElement(textInput);
-				entercode.sendKeys(phythonCode);
-				System.out.println("test"+entercode.getText());
+				driver.findElement(textInput).sendKeys(phythonCode);
 				driver.findElement(Run).click();
 				try {
 					driver.switchTo().alert().accept();
@@ -69,10 +45,8 @@ public class DataStructurePage extends BaseClass{
 				
 				}
 	
-	
-	
 	public void PracticeQ() {
-		//driver.findElement(DSgetstarted).click();
+		
 		driver.findElement(DStimecomplex).click();
 		driver.findElement(PracticeQues).click();
 	}

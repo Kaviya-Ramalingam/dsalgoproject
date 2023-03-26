@@ -65,3 +65,463 @@
 ['INFO ]2023-03-21 14:07:17,680(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on firefox
 ['INFO ]2023-03-21 14:07:22,748(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
 ['INFO ]2023-03-21 14:07:23,022(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking getStarted array button
+['INFO ]2023-03-22 10:40:43,961(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on chrome
+['INFO ]2023-03-22 10:40:48,089(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-22 10:40:48,117(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-click Get Startedlink on  DataStructures 
+['INFO ]2023-03-22 10:40:55,187(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on firefox
+['INFO ]2023-03-22 10:41:00,702(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-23 15:16:05,958(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on chrome
+['INFO ]2023-03-23 15:16:10,188(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-23 15:16:10,399(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking getStarted DataStructures 
+['INFO ]2023-03-23 15:16:14,424(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verifying the warn message
+['INFO ]2023-03-23 15:16:15,061(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verify the warn message
+['INFO ]2023-03-23 15:17:50,776(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on firefox
+['INFO ]2023-03-23 15:18:13,007(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on chrome
+['INFO ]2023-03-23 15:18:16,521(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-23 15:18:16,744(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking getStarted DataStructures 
+['INFO ]2023-03-23 15:18:17,476(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-User click on Arrays
+['INFO ]2023-03-23 15:18:20,985(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verifying the warn message
+['INFO ]2023-03-23 15:18:21,642(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verify the warn message
+['INFO ]2023-03-23 15:19:05,387(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Queue is selected
+['INFO ]2023-03-23 15:19:08,935(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Queue is selected
+['INFO ]2023-03-23 15:19:11,562(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)- clicking graph page
+['INFO ]2023-03-23 15:19:15,654(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)- clicking graph page
+['INFO ]2023-03-23 15:19:53,612(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on firefox
+['INFO ]2023-03-23 15:19:57,722(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-23 15:26:31,189(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on chrome
+['INFO ]2023-03-23 15:26:34,699(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-23 15:26:34,929(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking getStarted DataStructures 
+['INFO ]2023-03-23 15:26:35,421(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-The error message isYou are not logged in
+['INFO ]2023-03-23 15:26:35,691(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-User click on Arrays
+['INFO ]2023-03-23 15:26:36,179(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-The alert message is You are not logged in
+['INFO ]2023-03-23 15:26:39,184(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verifying the warn message
+['INFO ]2023-03-23 15:26:39,834(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verify the warn message
+['INFO ]2023-03-23 15:27:34,694(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on firefox
+['INFO ]2023-03-23 16:04:21,069(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on chrome
+['INFO ]2023-03-23 16:04:24,754(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-23 16:04:25,031(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking getStarted DataStructures 
+['INFO ]2023-03-23 16:04:25,608(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-The error message isYou are not logged in
+['INFO ]2023-03-23 16:04:25,856(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-User click on Arrays
+['INFO ]2023-03-23 16:04:26,371(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-The alert message is You are not logged in
+['INFO ]2023-03-23 16:04:29,382(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verifying the warn message
+['INFO ]2023-03-23 16:04:30,034(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verify the warn message
+['INFO ]2023-03-23 16:04:52,554(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking linkedList page
+['INFO ]2023-03-23 16:04:58,850(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking linkedList page
+['INFO ]2023-03-23 16:05:00,135(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on firefox
+['INFO ]2023-03-23 22:29:04,019(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on chrome
+['INFO ]2023-03-23 22:29:14,115(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-23 22:29:14,345(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking getStarted DataStructures 
+['INFO ]2023-03-23 22:29:14,858(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-The error message isYou are not logged in
+['INFO ]2023-03-23 22:29:15,111(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-User click on Arrays
+['INFO ]2023-03-23 22:29:15,578(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-The alert message is You are not logged in
+['INFO ]2023-03-23 22:29:18,572(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verifying the warn message
+['INFO ]2023-03-23 22:29:19,223(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verify the warn message
+['INFO ]2023-03-23 22:29:37,542(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on firefox
+['INFO ]2023-03-23 22:35:24,474(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on chrome
+['INFO ]2023-03-23 22:35:28,090(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-23 22:35:28,329(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking getStarted DataStructures 
+['INFO ]2023-03-23 22:35:28,853(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-The error message isYou are not logged in
+['INFO ]2023-03-23 22:35:29,108(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-User click on Arrays
+['INFO ]2023-03-23 22:35:29,583(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-The alert message is You are not logged in
+['INFO ]2023-03-23 22:35:32,519(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verifying the warn message
+['INFO ]2023-03-23 22:35:33,137(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verify the warn message
+['INFO ]2023-03-23 22:35:44,255(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot captured
+['INFO ]2023-03-23 22:35:55,976(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking linkedList page
+['INFO ]2023-03-23 22:36:02,299(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking linkedList page
+['INFO ]2023-03-23 22:36:06,954(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Queue is selected
+['INFO ]2023-03-23 22:36:10,428(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Queue is selected
+['INFO ]2023-03-23 22:36:13,223(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)- clicking graph page
+['INFO ]2023-03-23 22:36:15,287(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)- clicking graph page
+['INFO ]2023-03-23 22:36:16,889(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on tree page
+['INFO ]2023-03-23 22:36:41,951(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on tree page
+['INFO ]2023-03-23 22:37:03,565(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking stack page
+['INFO ]2023-03-23 22:37:06,333(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking stack page
+['INFO ]2023-03-23 22:37:08,266(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on firefox
+['INFO ]2023-03-23 22:37:11,833(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot captured
+['INFO ]2023-03-23 22:37:11,837(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot captured
+['INFO ]2023-03-23 23:27:26,992(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on chrome
+['INFO ]2023-03-23 23:27:31,005(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-23 23:27:31,214(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking getStarted DataStructures 
+['INFO ]2023-03-23 23:27:31,695(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-The error message isYou are not logged in
+['INFO ]2023-03-23 23:27:31,934(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-User click on Arrays
+['INFO ]2023-03-23 23:27:32,363(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-The alert message is You are not logged in
+['INFO ]2023-03-23 23:27:35,276(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verifying the warn message
+['INFO ]2023-03-23 23:27:35,894(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verify the warn message
+['INFO ]2023-03-23 23:27:47,028(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot captured
+['INFO ]2023-03-23 23:27:57,433(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot captured
+['INFO ]2023-03-23 23:28:02,455(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot captured
+['INFO ]2023-03-23 23:28:02,481(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot captured
+['INFO ]2023-03-23 23:28:02,545(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on firefox
+['INFO ]2023-03-23 23:28:06,524(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot captured
+['INFO ]2023-03-23 23:28:06,529(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot captured
+['INFO ]2023-03-23 23:33:00,241(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on chrome
+['INFO ]2023-03-23 23:33:04,365(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-23 23:33:04,593(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking getStarted DataStructures 
+['INFO ]2023-03-23 23:33:05,136(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-The error message isYou are not logged in
+['INFO ]2023-03-23 23:33:05,396(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-User click on Arrays
+['INFO ]2023-03-23 23:33:05,860(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-The alert message is You are not logged in
+['INFO ]2023-03-23 23:33:08,795(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verifying the warn message
+['INFO ]2023-03-23 23:33:09,434(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verify the warn message
+['INFO ]2023-03-23 23:33:20,559(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedRegisterPage
+['INFO ]2023-03-23 23:33:35,126(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking linkedList page
+['INFO ]2023-03-23 23:33:42,657(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking linkedList page
+['INFO ]2023-03-23 23:33:47,912(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Queue is selected
+['INFO ]2023-03-23 23:33:53,288(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Queue is selected
+['INFO ]2023-03-23 23:33:58,163(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)- clicking graph page
+['INFO ]2023-03-23 23:34:00,448(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)- clicking graph page
+['INFO ]2023-03-23 23:34:02,124(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on tree page
+['INFO ]2023-03-23 23:34:29,014(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on tree page
+['INFO ]2023-03-23 23:34:51,753(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking stack page
+['INFO ]2023-03-23 23:34:54,234(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking stack page
+['INFO ]2023-03-23 23:34:56,038(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on firefox
+['INFO ]2023-03-23 23:35:01,637(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-23 23:35:01,640(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedhomepage
+['INFO ]2023-03-23 23:35:11,855(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedRegisterPage
+['INFO ]2023-03-23 23:35:16,748(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedDataStructure
+['INFO ]2023-03-23 23:35:16,822(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedArray
+['INFO ]2023-03-23 23:35:16,830(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedArray
+['INFO ]2023-03-23 23:35:16,879(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedLinkedList
+['INFO ]2023-03-23 23:35:16,888(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedLinkedList
+['INFO ]2023-03-23 23:35:16,937(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedqueue
+['INFO ]2023-03-23 23:35:16,945(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedqueue
+['INFO ]2023-03-23 23:35:16,991(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedgraph
+['INFO ]2023-03-23 23:35:16,999(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedgraph
+['INFO ]2023-03-23 23:35:17,043(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedtree
+['INFO ]2023-03-23 23:35:17,051(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedtree
+['INFO ]2023-03-23 23:35:17,096(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedstack
+['INFO ]2023-03-23 23:35:17,103(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedstack
+['INFO ]2023-03-24 16:15:16,800(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on chrome
+['INFO ]2023-03-24 16:15:24,123(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-24 16:15:24,370(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking getStarted DataStructures 
+['INFO ]2023-03-24 16:15:24,930(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-The error message isYou are not logged in
+['INFO ]2023-03-24 16:15:25,207(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-User click on Arrays
+['INFO ]2023-03-24 16:15:25,663(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-The alert message is You are not logged in
+['INFO ]2023-03-24 16:15:28,658(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user warning message:Please fill out this field.
+['INFO ]2023-03-24 16:15:28,658(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verifying the warn message
+['INFO ]2023-03-24 16:15:29,366(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verify the warn message
+['INFO ]2023-03-24 16:15:30,556(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedRegisterPage
+['INFO ]2023-03-24 16:15:33,840(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on datastructure page
+['INFO ]2023-03-24 16:15:35,362(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on datastructure page
+['INFO ]2023-03-24 16:15:36,432(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on Array page
+['INFO ]2023-03-24 16:15:41,300(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on Array page
+['INFO ]2023-03-24 16:39:30,505(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on chrome
+['INFO ]2023-03-24 16:39:35,489(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-24 16:39:35,767(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking getStarted DataStructures 
+['INFO ]2023-03-24 16:39:36,263(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-The error message isYou are not logged in
+['INFO ]2023-03-24 16:39:36,631(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-User click on Arrays
+['INFO ]2023-03-24 16:39:37,066(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-The alert message is You are not logged in
+['INFO ]2023-03-24 16:39:40,018(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user warning message:Please fill out this field.
+['INFO ]2023-03-24 16:39:40,018(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verifying the warn message
+['INFO ]2023-03-24 16:39:40,666(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verify the warn message
+['INFO ]2023-03-24 16:39:41,779(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedRegisterPage
+['INFO ]2023-03-24 16:39:44,796(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedDataStructure
+['INFO ]2023-03-24 16:39:45,232(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedArray
+['INFO ]2023-03-24 16:39:45,630(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedLinkedList
+['INFO ]2023-03-24 16:39:46,024(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedqueue
+['INFO ]2023-03-24 16:39:46,434(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedgraph
+['INFO ]2023-03-24 16:39:46,846(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedtree
+['INFO ]2023-03-24 16:39:47,245(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedstack
+['INFO ]2023-03-24 16:39:47,672(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on firefox
+['INFO ]2023-03-24 16:39:54,984(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-24 16:39:54,986(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedhomepage
+['INFO ]2023-03-24 16:39:55,187(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedRegisterPage
+['INFO ]2023-03-24 16:39:57,444(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedDataStructure
+['INFO ]2023-03-24 16:39:57,639(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedArray
+['INFO ]2023-03-24 16:39:57,823(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedLinkedList
+['INFO ]2023-03-24 16:39:58,023(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedqueue
+['INFO ]2023-03-24 16:39:58,234(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedgraph
+['INFO ]2023-03-24 16:39:58,405(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedtree
+['INFO ]2023-03-24 16:39:58,627(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedstack
+['INFO ]2023-03-24 16:43:17,474(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on chrome
+['INFO ]2023-03-24 16:43:22,157(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-24 16:43:22,368(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking getStarted DataStructures 
+['INFO ]2023-03-24 16:43:22,897(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-The error message isYou are not logged in
+['INFO ]2023-03-24 16:43:23,298(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-User click on Arrays
+['INFO ]2023-03-24 16:43:23,743(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-The alert message is You are not logged in
+['INFO ]2023-03-24 16:43:26,911(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user warning message:Please fill out this field.
+['INFO ]2023-03-24 16:43:26,911(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verifying the warn message
+['INFO ]2023-03-24 16:43:27,547(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verify the warn message
+['INFO ]2023-03-24 16:43:28,622(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedRegisterPage
+['INFO ]2023-03-24 16:43:33,062(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedDataStructure
+['INFO ]2023-03-24 16:43:33,488(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedArray
+['INFO ]2023-03-24 16:43:33,893(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedLinkedList
+['INFO ]2023-03-24 16:43:34,278(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedqueue
+['INFO ]2023-03-24 16:43:34,676(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedgraph
+['INFO ]2023-03-24 16:43:35,093(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedtree
+['INFO ]2023-03-24 16:43:35,495(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedstack
+['INFO ]2023-03-24 16:43:35,911(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on firefox
+['INFO ]2023-03-24 16:43:41,300(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-24 16:43:41,303(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedhomepage
+['INFO ]2023-03-24 16:43:41,329(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedRegisterPage
+['INFO ]2023-03-24 16:43:41,514(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedlogin
+['INFO ]2023-03-24 16:43:41,528(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedlogin
+['INFO ]2023-03-24 16:43:41,540(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedlogin
+['INFO ]2023-03-24 16:43:41,552(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedlogin
+['INFO ]2023-03-24 16:43:41,558(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedDataStructure
+['INFO ]2023-03-24 16:43:41,565(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedArray
+['INFO ]2023-03-24 16:43:41,571(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedLinkedList
+['INFO ]2023-03-24 16:43:41,579(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedqueue
+['INFO ]2023-03-24 16:43:41,585(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedgraph
+['INFO ]2023-03-24 16:43:41,592(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedtree
+['INFO ]2023-03-24 16:43:41,598(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedstack
+['INFO ]2023-03-24 16:45:41,014(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on chrome
+['INFO ]2023-03-24 16:45:44,824(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-24 16:45:45,058(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking getStarted DataStructures 
+['INFO ]2023-03-24 16:45:45,556(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-The error message isYou are not logged in
+['INFO ]2023-03-24 16:45:45,805(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-User click on Arrays
+['INFO ]2023-03-24 16:45:46,234(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-The alert message is You are not logged in
+['INFO ]2023-03-24 16:45:49,153(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user warning message:Please fill out this field.
+['INFO ]2023-03-24 16:45:49,153(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verifying the warn message
+['INFO ]2023-03-24 16:45:49,792(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verify the warn message
+['INFO ]2023-03-24 16:45:50,892(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedRegisterPage
+['INFO ]2023-03-24 16:45:54,283(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on datastructure page
+['INFO ]2023-03-24 16:45:55,794(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on datastructure page
+['INFO ]2023-03-24 16:45:56,678(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on Array page
+['INFO ]2023-03-24 16:46:00,914(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on Array page
+['INFO ]2023-03-24 16:46:04,480(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on linkedList page
+['INFO ]2023-03-24 16:46:10,755(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on linkedList page
+['INFO ]2023-03-24 16:46:15,552(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Queue is selected
+['INFO ]2023-03-24 16:46:19,053(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedqueue
+['INFO ]2023-03-24 16:46:19,174(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedgraph
+['INFO ]2023-03-24 16:46:19,225(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedgraph
+['INFO ]2023-03-24 16:46:19,296(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedtree
+['INFO ]2023-03-24 16:46:19,303(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedtree
+['INFO ]2023-03-24 16:46:19,373(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedstack
+['INFO ]2023-03-24 16:46:19,380(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedstack
+['INFO ]2023-03-24 16:46:19,434(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on firefox
+['INFO ]2023-03-24 16:46:22,915(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedlaunchUrl
+['INFO ]2023-03-24 16:46:22,921(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedhomepage
+['INFO ]2023-03-24 16:46:22,934(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedRegisterPage
+['INFO ]2023-03-24 16:46:23,079(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedlogin
+['INFO ]2023-03-24 16:46:23,090(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedlogin
+['INFO ]2023-03-24 16:46:23,100(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedlogin
+['INFO ]2023-03-24 16:46:23,114(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedlogin
+['INFO ]2023-03-24 16:46:23,196(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedDataStructure
+['INFO ]2023-03-24 16:46:23,210(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedDataStructure
+['INFO ]2023-03-24 16:46:23,292(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedArray
+['INFO ]2023-03-24 16:46:23,302(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedArray
+['INFO ]2023-03-24 16:46:23,365(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedLinkedList
+['INFO ]2023-03-24 16:46:23,373(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedLinkedList
+['INFO ]2023-03-24 16:46:23,449(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedqueue
+['INFO ]2023-03-24 16:46:23,459(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedqueue
+['INFO ]2023-03-24 16:46:23,523(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedgraph
+['INFO ]2023-03-24 16:46:23,531(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedgraph
+['INFO ]2023-03-24 16:46:23,587(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedtree
+['INFO ]2023-03-24 16:46:23,594(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedtree
+['INFO ]2023-03-24 16:46:23,650(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedstack
+['INFO ]2023-03-24 16:46:23,659(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedstack
+['INFO ]2023-03-24 16:47:24,930(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on chrome
+['INFO ]2023-03-24 16:47:28,539(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-24 16:47:28,779(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking getStarted DataStructures 
+['INFO ]2023-03-24 16:47:29,306(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-The error message isYou are not logged in
+['INFO ]2023-03-24 16:47:29,550(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-User click on Arrays
+['INFO ]2023-03-24 16:47:30,024(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-The alert message is You are not logged in
+['INFO ]2023-03-24 16:47:32,959(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user warning message:Please fill out this field.
+['INFO ]2023-03-24 16:47:32,959(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verifying the warn message
+['INFO ]2023-03-24 16:47:33,577(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verify the warn message
+['INFO ]2023-03-24 16:47:34,661(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedRegisterPage
+['INFO ]2023-03-24 16:47:38,006(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on datastructure page
+['INFO ]2023-03-24 16:47:39,326(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on datastructure page
+['INFO ]2023-03-24 16:47:40,194(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on Array page
+['INFO ]2023-03-24 16:47:49,389(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on Array page
+['INFO ]2023-03-24 16:47:57,300(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on linkedList page
+['INFO ]2023-03-24 16:48:05,119(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on linkedList page
+['INFO ]2023-03-24 16:48:11,650(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedLinkedList
+['INFO ]2023-03-24 16:48:17,159(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedqueue
+['INFO ]2023-03-24 16:48:22,611(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedqueue
+['INFO ]2023-03-24 16:48:28,028(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedgraph
+['INFO ]2023-03-24 16:48:33,484(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedgraph
+['INFO ]2023-03-24 16:48:38,900(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedtree
+['INFO ]2023-03-24 16:48:44,346(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedtree
+['INFO ]2023-03-24 16:48:45,970(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedstack
+['INFO ]2023-03-24 16:48:45,980(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedstack
+['INFO ]2023-03-24 16:48:46,155(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on firefox
+['INFO ]2023-03-24 16:48:51,704(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-24 16:48:51,707(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedhomepage
+['INFO ]2023-03-24 16:48:51,936(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedRegisterPage
+['INFO ]2023-03-24 16:48:54,941(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on datastructure page
+['INFO ]2023-03-24 16:48:57,147(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on datastructure page
+['INFO ]2023-03-24 16:48:58,613(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on Array page
+['INFO ]2023-03-24 16:49:08,917(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on Array page
+['INFO ]2023-03-24 16:49:19,495(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on linkedList page
+['INFO ]2023-03-24 16:49:27,991(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on linkedList page
+['INFO ]2023-03-24 16:49:35,841(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Queue is selected
+['INFO ]2023-03-24 16:49:39,958(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Queue is selected
+['INFO ]2023-03-24 16:49:44,109(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)- user is on graph page
+['INFO ]2023-03-24 16:49:46,545(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)- user is on graph page
+['INFO ]2023-03-24 16:49:49,092(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on tree page
+['INFO ]2023-03-24 16:50:02,838(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on tree page
+['INFO ]2023-03-24 16:50:15,536(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on  stack page
+['INFO ]2023-03-24 16:50:18,934(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on  stack page
+['INFO ]2023-03-24 16:55:51,717(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on chrome
+['INFO ]2023-03-24 16:55:55,794(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-24 16:55:56,017(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking getStarted DataStructures 
+['INFO ]2023-03-24 16:55:56,540(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-The error message isYou are not logged in
+['INFO ]2023-03-24 16:55:56,770(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-User click on Arrays
+['INFO ]2023-03-24 16:55:57,217(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-The alert message is You are not logged in
+['INFO ]2023-03-24 16:56:00,172(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user warning message:Please fill out this field.
+['INFO ]2023-03-24 16:56:00,172(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verifying the warn message
+['INFO ]2023-03-24 16:56:00,850(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verify the warn message
+['INFO ]2023-03-24 16:56:01,960(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedRegisterPage
+['INFO ]2023-03-24 16:56:05,353(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on datastructure page
+['INFO ]2023-03-24 16:56:06,767(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on datastructure page
+['INFO ]2023-03-24 16:56:07,726(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on Array page
+['INFO ]2023-03-24 16:56:17,341(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on Array page
+['INFO ]2023-03-24 16:56:25,690(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on linkedList page
+['INFO ]2023-03-24 16:56:36,394(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on linkedList page
+['INFO ]2023-03-24 16:56:42,007(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Queue is selected
+['INFO ]2023-03-24 16:56:45,653(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Queue is selected
+['INFO ]2023-03-24 16:56:48,639(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)- user is on graph page
+['INFO ]2023-03-24 16:56:51,002(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)- user is on graph page
+['INFO ]2023-03-24 16:56:52,881(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on tree page
+['INFO ]2023-03-24 16:57:05,984(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on tree page
+['INFO ]2023-03-24 16:57:14,611(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on  stack page
+['INFO ]2023-03-24 16:57:17,301(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on  stack page
+['INFO ]2023-03-24 16:57:19,152(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on firefox
+['INFO ]2023-03-24 16:57:23,670(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-24 16:57:23,673(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedhomepage
+['INFO ]2023-03-24 16:57:23,907(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedRegisterPage
+['INFO ]2023-03-24 16:57:26,097(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on datastructure page
+['INFO ]2023-03-24 16:57:27,586(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on datastructure page
+['INFO ]2023-03-24 16:57:29,162(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on Array page
+['INFO ]2023-03-24 16:57:38,737(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on Array page
+['INFO ]2023-03-24 16:57:47,788(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on linkedList page
+['INFO ]2023-03-24 16:57:54,902(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on linkedList page
+['INFO ]2023-03-24 16:58:02,214(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Queue is selected
+['INFO ]2023-03-24 16:58:06,308(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Queue is selected
+['INFO ]2023-03-24 16:58:10,327(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)- user is on graph page
+['INFO ]2023-03-24 16:58:12,838(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)- user is on graph page
+['INFO ]2023-03-24 16:58:15,325(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on tree page
+['INFO ]2023-03-24 16:58:29,199(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on tree page
+['INFO ]2023-03-24 16:58:41,883(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on  stack page
+['INFO ]2023-03-24 16:58:45,252(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on  stack page
+['INFO ]2023-03-24 22:26:14,841(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on chrome
+['INFO ]2023-03-24 22:26:19,638(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-24 22:26:19,880(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking getStarted DataStructures 
+['INFO ]2023-03-24 22:26:20,407(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-The error message isYou are not logged in
+['INFO ]2023-03-24 22:26:20,662(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-User click on Arrays
+['INFO ]2023-03-24 22:26:21,135(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-The alert message is You are not logged in
+['INFO ]2023-03-24 22:26:24,145(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user warning message:Please fill out this field.
+['INFO ]2023-03-24 22:26:24,145(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verifying the warn message
+['INFO ]2023-03-24 22:26:24,802(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verify the warn message
+['INFO ]2023-03-24 22:26:25,902(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedRegisterPage
+['INFO ]2023-03-24 22:26:29,273(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on datastructure page
+['INFO ]2023-03-24 22:26:30,617(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on datastructure page
+['INFO ]2023-03-24 22:26:31,477(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on Array page
+['INFO ]2023-03-24 22:26:40,728(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on Array page
+['INFO ]2023-03-24 22:26:48,696(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on linkedList page
+['INFO ]2023-03-24 22:26:54,972(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on linkedList page
+['INFO ]2023-03-24 22:27:01,162(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Queue is selected
+['INFO ]2023-03-24 22:27:04,352(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Queue is selected
+['INFO ]2023-03-24 22:27:06,776(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)- user is on graph page
+['INFO ]2023-03-24 22:27:08,814(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)- user is on graph page
+['INFO ]2023-03-24 22:27:10,319(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on tree page
+['INFO ]2023-03-24 22:27:23,297(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedtree
+['INFO ]2023-03-24 22:27:28,692(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedtree
+['INFO ]2023-03-24 22:27:34,105(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedstack
+['INFO ]2023-03-24 22:27:39,502(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedstack
+['INFO ]2023-03-24 22:27:39,889(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on firefox
+['INFO ]2023-03-24 22:27:44,483(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-24 22:27:44,487(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedhomepage
+['INFO ]2023-03-24 22:27:44,503(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedRegisterPage
+['INFO ]2023-03-24 22:27:44,640(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedlogin
+['INFO ]2023-03-24 22:27:44,649(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedlogin
+['INFO ]2023-03-24 22:27:44,658(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedlogin
+['INFO ]2023-03-24 22:27:44,667(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedlogin
+['INFO ]2023-03-24 22:27:44,728(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedDataStructure
+['INFO ]2023-03-24 22:27:44,736(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedDataStructure
+['INFO ]2023-03-24 22:27:44,792(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedArray
+['INFO ]2023-03-24 22:27:44,799(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedArray
+['INFO ]2023-03-24 22:27:44,856(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedLinkedList
+['INFO ]2023-03-24 22:27:44,864(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedLinkedList
+['INFO ]2023-03-24 22:27:44,923(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedqueue
+['INFO ]2023-03-24 22:27:44,931(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedqueue
+['INFO ]2023-03-24 22:27:44,984(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedgraph
+['INFO ]2023-03-24 22:27:44,995(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedgraph
+['INFO ]2023-03-24 22:27:45,055(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedtree
+['INFO ]2023-03-24 22:27:45,063(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedtree
+['INFO ]2023-03-24 22:27:45,112(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedstack
+['INFO ]2023-03-24 22:27:45,118(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedstack
+['INFO ]2023-03-24 22:28:46,103(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on chrome
+['INFO ]2023-03-24 22:28:49,544(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-24 22:28:49,770(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking getStarted DataStructures 
+['INFO ]2023-03-24 22:28:50,211(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-The error message isYou are not logged in
+['INFO ]2023-03-24 22:28:50,426(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-User click on Arrays
+['INFO ]2023-03-24 22:28:50,834(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-The alert message is You are not logged in
+['INFO ]2023-03-24 22:28:53,623(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user warning message:Please fill out this field.
+['INFO ]2023-03-24 22:28:53,623(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verifying the warn message
+['INFO ]2023-03-24 22:28:54,138(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verify the warn message
+['INFO ]2023-03-24 22:28:55,075(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedRegisterPage
+['INFO ]2023-03-24 22:28:58,156(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on datastructure page
+['INFO ]2023-03-24 22:28:59,388(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on datastructure page
+['INFO ]2023-03-24 22:29:00,211(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on Array page
+['INFO ]2023-03-24 22:29:09,508(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on Array page
+['INFO ]2023-03-24 22:29:17,092(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on linkedList page
+['INFO ]2023-03-24 22:29:22,662(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on linkedList page
+['INFO ]2023-03-24 22:29:27,478(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Queue is selected
+['INFO ]2023-03-24 22:29:30,729(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Queue is selected
+['INFO ]2023-03-24 22:29:33,230(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)- user is on graph page
+['INFO ]2023-03-24 22:29:35,117(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)- user is on graph page
+['INFO ]2023-03-24 22:29:36,597(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on tree page
+['INFO ]2023-03-24 22:29:47,970(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on tree page
+['INFO ]2023-03-24 22:29:55,396(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on  stack page
+['INFO ]2023-03-24 22:29:57,933(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on  stack page
+['INFO ]2023-03-24 22:29:59,680(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on firefox
+['INFO ]2023-03-24 22:30:03,885(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-24 22:30:03,887(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedhomepage
+['INFO ]2023-03-24 22:30:04,098(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedRegisterPage
+['INFO ]2023-03-24 22:30:06,172(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on datastructure page
+['INFO ]2023-03-24 22:30:07,598(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on datastructure page
+['INFO ]2023-03-24 22:30:09,048(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on Array page
+['INFO ]2023-03-24 22:30:18,334(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on Array page
+['INFO ]2023-03-24 22:30:27,290(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on linkedList page
+['INFO ]2023-03-24 22:30:33,740(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on linkedList page
+['INFO ]2023-03-24 22:30:40,135(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Queue is selected
+['INFO ]2023-03-24 22:30:44,348(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Queue is selected
+['INFO ]2023-03-24 22:30:48,278(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)- user is on graph page
+['INFO ]2023-03-24 22:30:50,478(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)- user is on graph page
+['INFO ]2023-03-24 22:30:52,932(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on tree page
+['INFO ]2023-03-24 22:31:04,543(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on tree page
+['INFO ]2023-03-24 22:31:16,227(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on  stack page
+['INFO ]2023-03-24 22:31:19,118(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on  stack page
+['INFO ]2023-03-24 22:42:50,137(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on chrome
+['INFO ]2023-03-24 22:42:53,749(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-24 22:42:54,001(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking getStarted DataStructures 
+['INFO ]2023-03-24 22:42:54,458(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-The error message isYou are not logged in
+['INFO ]2023-03-24 22:42:54,685(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-User click on Arrays
+['INFO ]2023-03-24 22:42:55,099(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-The alert message is You are not logged in
+['INFO ]2023-03-24 22:42:57,878(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user warning message:Please fill out this field.
+['INFO ]2023-03-24 22:42:57,879(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verifying the warn message
+['INFO ]2023-03-24 22:42:58,376(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verify the warn message
+['INFO ]2023-03-24 22:43:02,268(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on datastructure page
+['INFO ]2023-03-24 22:43:03,484(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on datastructure page
+['INFO ]2023-03-24 22:43:04,299(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on Array page
+['INFO ]2023-03-24 22:43:13,104(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on Array page
+['INFO ]2023-03-24 22:43:20,617(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on linkedList page
+['INFO ]2023-03-24 22:43:26,272(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on linkedList page
+['INFO ]2023-03-24 22:43:30,489(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Queue is selected
+['INFO ]2023-03-24 22:43:33,605(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Queue is selected
+['INFO ]2023-03-24 22:43:36,070(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)- user is on graph page
+['INFO ]2023-03-24 22:43:37,999(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)- user is on graph page
+['INFO ]2023-03-24 22:43:39,440(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on tree page
+['INFO ]2023-03-24 22:43:50,298(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on tree page
+['INFO ]2023-03-24 22:43:57,715(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on  stack page
+['INFO ]2023-03-24 22:44:00,007(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on  stack page
+['INFO ]2023-03-24 22:44:01,620(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on firefox
+['INFO ]2023-03-24 22:44:05,550(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-03-24 22:44:05,553(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedhomepage
+['INFO ]2023-03-24 22:44:05,775(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedRegisterPage
+['INFO ]2023-03-24 22:44:07,814(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on datastructure page
+['INFO ]2023-03-24 22:44:09,218(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on datastructure page
+['INFO ]2023-03-24 22:44:10,523(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on Array page
+['INFO ]2023-03-24 22:44:19,915(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on Array page
+['INFO ]2023-03-24 22:44:28,736(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on linkedList page
+['INFO ]2023-03-24 22:44:35,140(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on linkedList page
+['INFO ]2023-03-24 22:44:41,629(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Queue is selected
+['INFO ]2023-03-24 22:44:45,246(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Queue is selected
+['INFO ]2023-03-24 22:44:48,895(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)- user is on graph page
+['INFO ]2023-03-24 22:44:51,100(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)- user is on graph page
+['INFO ]2023-03-24 22:44:53,386(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on tree page
+['INFO ]2023-03-24 22:45:05,755(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on tree page
+['INFO ]2023-03-24 22:45:17,318(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on  stack page
+['INFO ]2023-03-24 22:45:20,307(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on  stack page

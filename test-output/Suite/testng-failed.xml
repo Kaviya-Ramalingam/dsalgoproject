@@ -1,44 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite thread-count="1" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="1" parallel="tests" name="chromeTest(failed)">
-    <parameter name="string" value="Data Structures-Introduction"/>
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="testCases.testCase">
-        <methods>
-          <include name="queue" invocation-numbers="0 1"/>
-          <include name="RegisterPage"/>
-          <include name="graph" invocation-numbers="0 1"/>
-          <include name="login" invocation-numbers="0 1 2 3"/>
-          <include name="homepage" invocation-numbers="0"/>
-          <include name="tree" invocation-numbers="0 1"/>
-          <include name="DataStructure" invocation-numbers="0 1"/>
-          <include name="LinkedList" invocation-numbers="0 1"/>
-          <include name="Array" invocation-numbers="0 1"/>
-          <include name="graphnew" invocation-numbers="0 1"/>
-          <include name="stack" invocation-numbers="0 1"/>
-        </methods>
-      </class> <!-- testCases.testCase -->
-    </classes>
-  </test> <!-- chromeTest(failed) -->
   <test thread-count="1" parallel="tests" name="firefoxTest(failed)">
     <parameter name="string" value="Arrays"/>
     <parameter name="browser" value="firefox"/>
+    <parameter name="string1`" value="Stack"/>
     <classes>
       <class name="testCases.testCase">
         <methods>
-          <include name="queue" invocation-numbers="0 1"/>
           <include name="RegisterPage"/>
-          <include name="graph" invocation-numbers="0 1"/>
-          <include name="login" invocation-numbers="0 1 2 3"/>
-          <include name="homepage" invocation-numbers="0"/>
-          <include name="tree" invocation-numbers="0 1"/>
-          <include name="DataStructure" invocation-numbers="0 1"/>
-          <include name="LinkedList" invocation-numbers="0 1"/>
-          <include name="Array" invocation-numbers="0 1"/>
-          <include name="graphnew" invocation-numbers="0 1"/>
-          <include name="stack" invocation-numbers="0 1"/>
+          <include name="homepage"/>
         </methods>
       </class> <!-- testCases.testCase -->
     </classes>

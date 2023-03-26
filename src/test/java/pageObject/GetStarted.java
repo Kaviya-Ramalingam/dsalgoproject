@@ -15,7 +15,7 @@ public class GetStarted extends BaseClass {
 	
 	By getStarted = By.xpath ("//button[@class='btn']");
 	
-//@Test	
+
  public void getstarted() {
 	
 		driver.findElement(getStarted).click();

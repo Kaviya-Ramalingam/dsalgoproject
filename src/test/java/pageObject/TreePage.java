@@ -11,6 +11,7 @@ import org.testng.annotations.Test;
 import base.BaseClass;
 import utility.DPclass;
 import utility.ExcelReader;
+import utility.LoggerLoad;
 
 public class TreePage extends BaseClass {
 	
@@ -30,6 +31,7 @@ public void clickTree() throws IOException, InterruptedException {
 		
 		driver.findElement(dropDown).click();	
 		driver.findElement(tree).click();
+		LoggerLoad.info("user is on tree page");
 		}
 
 public void  Tree(String phythonCode) throws IOException, InterruptedException {
@@ -42,7 +44,6 @@ public void  Tree(String phythonCode) throws IOException, InterruptedException {
 		
 		        driver.findElement(Topic).click(); 
 				driver.findElement(tryHere).click();
-				Thread.sleep(1000);
 				driver.findElement(textInput).sendKeys(phythonCode);
 				driver.findElement(Run).click();
 				try {
@@ -51,11 +52,9 @@ public void  Tree(String phythonCode) throws IOException, InterruptedException {
 				catch(Exception e){
 					
 				}
-
+				
 				driver.navigate().back();
-		     	
-
-			driver.navigate().back();
+			    driver.navigate().back();
 			
 			}
 }

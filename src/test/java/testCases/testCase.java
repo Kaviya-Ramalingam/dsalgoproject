@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import org.apache.logging.log4j.Logger;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -14,7 +15,6 @@ import pageObject.GetStarted;
 import pageObject.LinkedlistPage;
 import pageObject.QueuePage;
 import pageObject.GraphPage;
-import pageObject.GraphPagek;
 import pageObject.RegisterPage;
 import pageObject.SigninPage;
 import pageObject.StackPage;
@@ -22,6 +22,7 @@ import pageObject.TreePage;
 import pageObject.homePage;
 import utility.DPclass;
 
+@Listeners(base.Listener.class)		
 public class testCase extends BaseClass  {
 	
 	GetStarted gs = new GetStarted();
@@ -35,7 +36,7 @@ public class testCase extends BaseClass  {
 	ArrayPage Ap = new ArrayPage();
 	StackPage Sp = new StackPage();
 	LinkedlistPage lp = new LinkedlistPage();
-	GraphPagek graph = new GraphPagek();
+	
 	@Test(priority=0)
 	@Parameters({"browser"})
 	public void launchBrowser(String browsername) {
@@ -50,13 +51,15 @@ public class testCase extends BaseClass  {
 		gs.getstarted();
 	}
 	
-	@Parameters({"string"})
+	@Parameters({"string","string1"})
 	@Test(priority=2)
-	public void homepage(String string) throws InterruptedException, IOException
+	public void homepage(String string, String string1) throws InterruptedException, IOException
 	{ 
 		hp.getStartedhome(string);
 		hp.displayErrorMsg();
-		hp.selectdropdown();
+		hp.dropdown(string1);
+		hp.displayalertMsg();
+		//hp.selectdropdown();
 		hp.signIn();
 		hp.register();
 	}
@@ -75,17 +78,12 @@ public class testCase extends BaseClass  {
 		sp.login(user, pswd, exp);
 
 	}
-	@Test(priority=6,dataProvider= "codedata",dataProviderClass = DPclass.class)
-	public void graphnew(String phythonCode) throws Exception {
-		graph.clickGraph();
-		graph.selectGraph(phythonCode);
-		
-	}
 	
 	@Test(priority=6,dataProvider= "codedata",dataProviderClass = DPclass.class)
 	public void Array(String phythonCode) throws Exception {
 		Ap.dropdown();
 		Ap.performarray(phythonCode);
+		Ap.practiceQarray(phythonCode);
 		}
 	
 	@Test(priority=5,dataProvider= "codedata",dataProviderClass = DPclass.class)

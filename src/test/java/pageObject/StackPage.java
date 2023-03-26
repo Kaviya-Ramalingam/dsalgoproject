@@ -5,6 +5,7 @@ import java.io.IOException;
 import org.openqa.selenium.By;
 
 import base.BaseClass;
+import utility.LoggerLoad;
 
 public class StackPage extends BaseClass {
 	 By dropdown =By.xpath("//div[@class='nav-item dropdown']");
@@ -18,17 +19,21 @@ public class StackPage extends BaseClass {
      
      
      public void clickStack() throws IOException {
+    	 
  		driver.findElement(dropdown).click();
  		driver.findElement(Stack).click();
+ 		LoggerLoad.info("user is on  stack page");
      }
  		
  		
- 	public void AccessStack(String phythonCode) {	
+ 	public void AccessStack(String phythonCode) {
+ 		
  		int size= driver.findElements(Topic).size();
  		
  		for( int j=1;j<=size;j++) {
  		
  		By Topic= By.xpath("//body/div/ul[" + j + "]/a[@class='list-group-item']");
+ 		
  		driver.findElement(Topic).click();
  		driver.findElement(tryHere).click();
  	   	driver.findElement(textInput).sendKeys(phythonCode);
@@ -42,8 +47,7 @@ public class StackPage extends BaseClass {
  	    		
  	    	}
  	   	driver.navigate().back();
- 	
- 	   driver.navigate().back();
+ 	    driver.navigate().back();
  	}
 }
      public void PracticeQues() {

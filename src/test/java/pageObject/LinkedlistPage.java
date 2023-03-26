@@ -5,6 +5,7 @@ import java.io.IOException;
 import org.openqa.selenium.By;
 
 import base.BaseClass;
+import utility.LoggerLoad;
 
 public class LinkedlistPage extends BaseClass{
 
@@ -22,6 +23,7 @@ public class LinkedlistPage extends BaseClass{
 	public void clickLinkedlist() throws IOException {
 		driver.findElement(dropDown).click();
 		driver.findElement(linkedList).click();
+		LoggerLoad.info("user is on linkedList page");
 	}
 		
 	public void AccessLinkedlist(String phythonCode) {	
@@ -30,12 +32,11 @@ public class LinkedlistPage extends BaseClass{
 		for( int j=1;j<=size;j++) {
 
 			By Topic= By.xpath("//body/div/ul[" + j + "]/a[@class='list-group-item']");
-			driver.findElement(Topic).click();
-
+			
+			    driver.findElement(Topic).click();
 				driver.findElement(tryHere).click();
 				driver.findElement(textInput).sendKeys(phythonCode);
 				driver.findElement(Run).click();
-
 
 				try {
 					driver.switchTo().alert().accept();
@@ -45,8 +46,7 @@ public class LinkedlistPage extends BaseClass{
 					
 				}
 				driver.navigate().back();
-			
-			driver.navigate().back(); 	  	
+			    driver.navigate().back(); 	  	
 		}
 
 	}

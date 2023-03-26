@@ -44,9 +44,7 @@ public class QueuePage extends BaseClass {
 			}
 
 			driver.navigate().back();
-			
-		
-		driver.navigate().back();
+		    driver.navigate().back();
 		}
 
 	}
