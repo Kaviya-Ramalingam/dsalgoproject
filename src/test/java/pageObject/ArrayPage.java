@@ -13,14 +13,14 @@ import utility.LoggerLoad;
 public class ArrayPage extends BaseClass{
 	By dropdown= By.xpath("//a[@class='nav-link dropdown-toggle']");
 	By array=By.xpath("//div[@class='nav-item dropdown show']//div//a[1]");
-    By arraypython= By.xpath("//a[text()='Arrays in Python']");
+        By arraypython= By.xpath("//a[text()='Arrays in Python']");
 	By Topic= By.xpath("//body/div/ul['+i+']/a[@class='list-group-item']");
 	By tryHere= By.xpath("//a[contains (text(), 'Try here')]");
 	By textInput= By.xpath("//form[@id='answer_form']/div/div/div[1]/textarea");
 	//By arrayusinglist= By.xpath("//a[text()='Arrays Using List']");
 	//By basicoperationlist= By.xpath("//a[text()='Basic Operations in Lists']");
 	//By applicationArray= By.xpath("//a[text()='Applications of Array']");
-    By practiceQ= By.xpath("//a[text()='Practice Questions']");
+        By practiceQ= By.xpath("//a[text()='Practice Questions']");
 	By searcharray=By.xpath("//a[text()='Search the array']");
 	By maxCons= By.xpath("//a[text()='Max Consecutive Ones']");
 	By findno=By.xpath("//a[text()='Find Numbers with Even Number of Digits']");
