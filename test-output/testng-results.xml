@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="44" passed="42" failed="2" skipped="0">
+<testng-results ignored="0" total="48" passed="46" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-24T22:42:49 EDT" name="Suite" finished-at="2023-03-24T22:45:23 EDT" duration-ms="153503">
+  <suite started-at="2023-03-31T15:45:06 EDT" name="Suite" finished-at="2023-03-31T16:11:29 EDT" duration-ms="1582633">
     <groups>
     </groups>
-    <test started-at="2023-03-24T22:42:49 EDT" name="chromeTest" finished-at="2023-03-24T22:44:01 EDT" duration-ms="71986">
+    <test started-at="2023-03-31T15:45:06 EDT" name="chromeTest" finished-at="2023-03-31T15:46:20 EDT" duration-ms="73835">
       <class name="testCases.testCase">
-        <test-method signature="launchBrowser(java.lang.String)[pri:0, instance:testCases.testCase@121314f7]" started-at="2023-03-24T22:42:49 EDT" name="launchBrowser" finished-at="2023-03-24T22:42:52 EDT" duration-ms="2756" status="PASS">
+        <test-method signature="launchBrowser(java.lang.String)[pri:0, instance:testCases.testCase@5a45133e]" started-at="2023-03-31T15:45:06 EDT" name="launchBrowser" finished-at="2023-03-31T15:45:09 EDT" duration-ms="2990" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="launchUrl()[pri:1, instance:testCases.testCase@121314f7]" started-at="2023-03-24T22:42:52 EDT" name="launchUrl" finished-at="2023-03-24T22:42:53 EDT" duration-ms="1291" status="PASS">
+        <test-method signature="launchUrl()[pri:1, instance:testCases.testCase@5a45133e]" started-at="2023-03-31T15:45:09 EDT" name="launchUrl" finished-at="2023-03-31T15:45:10 EDT" duration-ms="1330" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchUrl -->
-        <test-method signature="homepage(java.lang.String,java.lang.String)[pri:2, instance:testCases.testCase@121314f7]" started-at="2023-03-24T22:42:53 EDT" name="homepage" finished-at="2023-03-24T22:42:55 EDT" duration-ms="1665" status="PASS">
+        <test-method signature="homepage(java.lang.String,java.lang.String)[pri:2, instance:testCases.testCase@5a45133e]" started-at="2023-03-31T15:45:10 EDT" name="homepage" finished-at="2023-03-31T15:45:12 EDT" duration-ms="1666" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -38,327 +38,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homepage -->
-        <test-method signature="RegisterPage()[pri:3, instance:testCases.testCase@121314f7]" started-at="2023-03-24T22:42:55 EDT" name="RegisterPage" finished-at="2023-03-24T22:42:59 EDT" duration-ms="4115" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- RegisterPage -->
-        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.testCase@121314f7]" started-at="2023-03-24T22:43:00 EDT" name="login" data-provider="Logindata" finished-at="2023-03-24T22:43:00 EDT" duration-ms="419" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Numpy@Sdet100_27]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.testCase@121314f7]" started-at="2023-03-24T22:43:00 EDT" name="login" data-provider="Logindata" finished-at="2023-03-24T22:43:01 EDT" duration-ms="449" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[username]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.testCase@121314f7]" started-at="2023-03-24T22:43:01 EDT" name="login" data-provider="Logindata" finished-at="2023-03-24T22:43:01 EDT" duration-ms="432" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[username]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[uvdh30VI@0599907]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.testCase@121314f7]" started-at="2023-03-24T22:43:01 EDT" name="login" data-provider="Logindata" finished-at="2023-03-24T22:43:02 EDT" duration-ms="543" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Numpy@Sdet100_27]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[uvdh30VI@0599907]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[valid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="DataStructure(java.lang.String)[pri:5, instance:testCases.testCase@121314f7]" started-at="2023-03-24T22:43:02 EDT" name="DataStructure" data-provider="codedata" finished-at="2023-03-24T22:43:03 EDT" duration-ms="1235" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[goodmorning]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DataStructure -->
-        <test-method signature="DataStructure(java.lang.String)[pri:5, instance:testCases.testCase@121314f7]" started-at="2023-03-24T22:43:03 EDT" name="DataStructure" data-provider="codedata" finished-at="2023-03-24T22:43:04 EDT" duration-ms="671" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[print("hello")]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DataStructure -->
-        <test-method signature="Array(java.lang.String)[pri:6, instance:testCases.testCase@121314f7]" started-at="2023-03-24T22:43:04 EDT" name="Array" data-provider="codedata" finished-at="2023-03-24T22:43:12 EDT" duration-ms="8670" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[goodmorning]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Array -->
-        <test-method signature="Array(java.lang.String)[pri:6, instance:testCases.testCase@121314f7]" started-at="2023-03-24T22:43:12 EDT" name="Array" data-provider="codedata" finished-at="2023-03-24T22:43:20 EDT" duration-ms="7495" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[print("hello")]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Array -->
-        <test-method signature="LinkedList(java.lang.String)[pri:6, instance:testCases.testCase@121314f7]" started-at="2023-03-24T22:43:20 EDT" name="LinkedList" data-provider="codedata" finished-at="2023-03-24T22:43:26 EDT" duration-ms="5753" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[goodmorning]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LinkedList -->
-        <test-method signature="LinkedList(java.lang.String)[pri:6, instance:testCases.testCase@121314f7]" started-at="2023-03-24T22:43:26 EDT" name="LinkedList" data-provider="codedata" finished-at="2023-03-24T22:43:30 EDT" duration-ms="4124" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[print("hello")]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LinkedList -->
-        <test-method signature="queue(java.lang.String)[pri:6, instance:testCases.testCase@121314f7]" started-at="2023-03-24T22:43:30 EDT" name="queue" data-provider="codedata" finished-at="2023-03-24T22:43:33 EDT" duration-ms="3139" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[goodmorning]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- queue -->
-        <test-method signature="queue(java.lang.String)[pri:6, instance:testCases.testCase@121314f7]" started-at="2023-03-24T22:43:33 EDT" name="queue" data-provider="codedata" finished-at="2023-03-24T22:43:35 EDT" duration-ms="2361" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[print("hello")]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- queue -->
-        <test-method signature="graph(java.lang.String)[pri:7, instance:testCases.testCase@121314f7]" started-at="2023-03-24T22:43:35 EDT" name="graph" data-provider="codedata" finished-at="2023-03-24T22:43:37 EDT" duration-ms="1963" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[goodmorning]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- graph -->
-        <test-method signature="graph(java.lang.String)[pri:7, instance:testCases.testCase@121314f7]" started-at="2023-03-24T22:43:37 EDT" name="graph" data-provider="codedata" finished-at="2023-03-24T22:43:39 EDT" duration-ms="1330" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[print("hello")]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- graph -->
-        <test-method signature="tree(java.lang.String)[pri:8, instance:testCases.testCase@121314f7]" started-at="2023-03-24T22:43:39 EDT" name="tree" data-provider="codedata" finished-at="2023-03-24T22:43:50 EDT" duration-ms="10917" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[goodmorning]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tree -->
-        <test-method signature="tree(java.lang.String)[pri:8, instance:testCases.testCase@121314f7]" started-at="2023-03-24T22:43:50 EDT" name="tree" data-provider="codedata" finished-at="2023-03-24T22:43:57 EDT" duration-ms="7293" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[print("hello")]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tree -->
-        <test-method signature="stack(java.lang.String)[pri:9, instance:testCases.testCase@121314f7]" started-at="2023-03-24T22:43:57 EDT" name="stack" data-provider="codedata" finished-at="2023-03-24T22:43:59 EDT" duration-ms="2352" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[goodmorning]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- stack -->
-        <test-method signature="stack(java.lang.String)[pri:9, instance:testCases.testCase@121314f7]" started-at="2023-03-24T22:43:59 EDT" name="stack" data-provider="codedata" finished-at="2023-03-24T22:44:01 EDT" duration-ms="1756" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[print("hello")]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- stack -->
-      </class> <!-- testCases.testCase -->
-    </test> <!-- chromeTest -->
-    <test started-at="2023-03-24T22:44:01 EDT" name="firefoxTest" finished-at="2023-03-24T22:45:23 EDT" duration-ms="81498">
-      <class name="testCases.testCase">
-        <test-method signature="launchBrowser(java.lang.String)[pri:0, instance:testCases.testCase@793f29ff]" started-at="2023-03-24T22:44:01 EDT" name="launchBrowser" finished-at="2023-03-24T22:44:03 EDT" duration-ms="2242" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="launchUrl()[pri:1, instance:testCases.testCase@793f29ff]" started-at="2023-03-24T22:44:03 EDT" name="launchUrl" finished-at="2023-03-24T22:44:05 EDT" duration-ms="1687" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchUrl -->
-        <test-method signature="homepage(java.lang.String,java.lang.String)[pri:2, instance:testCases.testCase@793f29ff]" started-at="2023-03-24T22:44:05 EDT" name="homepage" finished-at="2023-03-24T22:44:05 EDT" duration-ms="0" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'string1' is required by @Test on method homepage but has not been marked @Optional or defined
-in /Users/uvaraj/eclipse-workspace/dsAlgo/testcasetestNG.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'string1' is required by @Test on method homepage but has not been marked @Optional or defined
-in /Users/uvaraj/eclipse-workspace/dsAlgo/testcasetestNG.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:270)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
-at org.testng.internal.Parameters.createParameters(Parameters.java:700)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:884)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
-at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
-at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1589)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homepage -->
-        <test-method signature="RegisterPage()[pri:3, instance:testCases.testCase@793f29ff]" started-at="2023-03-24T22:44:05 EDT" name="RegisterPage" finished-at="2023-03-24T22:44:05 EDT" duration-ms="6" status="FAIL">
+        <test-method signature="RegisterPage()[pri:3, instance:testCases.testCase@5a45133e]" started-at="2023-03-31T15:45:12 EDT" name="RegisterPage" finished-at="2023-03-31T15:45:16 EDT" duration-ms="4119" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Unable to locate element: //input[@type='submit']
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Sign out']"}
+  (Session info: chrome=111.0.5563.146)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.0', revision: '267030adea'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [fac02ed7-f0ca-48f3-91d6-b699000f4e14, findElement {using=xpath, value=//input[@type='submit']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:30259, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 13297, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:30259/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fac02ed7-f0ca-48f3-91d6-b699000f4e14]]>
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5fb2a84f7d5382d267057c340c6194b5, findElement {using=xpath, value=//a[text()='Sign out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, goog:chromeOptions: {debuggerAddress: localhost:50263}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50263/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5fb2a84f7d5382d267057c340c6194b5]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@type='submit']
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Sign out']"}
+  (Session info: chrome=111.0.5563.146)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.0', revision: '267030adea'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [fac02ed7-f0ca-48f3-91d6-b699000f4e14, findElement {using=xpath, value=//input[@type='submit']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:30259, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 13297, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:30259/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fac02ed7-f0ca-48f3-91d6-b699000f4e14
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5fb2a84f7d5382d267057c340c6194b5, findElement {using=xpath, value=//a[text()='Sign out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, goog:chromeOptions: {debuggerAddress: localhost:50263}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50263/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5fb2a84f7d5382d267057c340c6194b5
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -373,8 +75,8 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-at pageObject.RegisterPage.clickRegister(RegisterPage.java:32)
-at testCases.testCase.RegisterPage(testCase.java:69)
+at pageObject.RegisterPage.Register(RegisterPage.java:78)
+at testCases.testCase.RegisterPage(testCase.java:73)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -402,7 +104,7 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegisterPage -->
-        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.testCase@793f29ff]" started-at="2023-03-24T22:44:06 EDT" name="login" data-provider="Logindata" finished-at="2023-03-24T22:44:06 EDT" duration-ms="383" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.testCase@5a45133e]" started-at="2023-03-31T15:45:17 EDT" name="login" data-provider="Logindata" finished-at="2023-03-31T15:45:18 EDT" duration-ms="504" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -423,7 +125,7 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.testCase@793f29ff]" started-at="2023-03-24T22:44:06 EDT" name="login" data-provider="Logindata" finished-at="2023-03-24T22:44:06 EDT" duration-ms="339" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.testCase@5a45133e]" started-at="2023-03-31T15:45:18 EDT" name="login" data-provider="Logindata" finished-at="2023-03-31T15:45:18 EDT" duration-ms="462" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -444,7 +146,7 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.testCase@793f29ff]" started-at="2023-03-24T22:44:06 EDT" name="login" data-provider="Logindata" finished-at="2023-03-24T22:44:07 EDT" duration-ms="312" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.testCase@5a45133e]" started-at="2023-03-31T15:45:18 EDT" name="login" data-provider="Logindata" finished-at="2023-03-31T15:45:19 EDT" duration-ms="520" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -465,7 +167,7 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.testCase@793f29ff]" started-at="2023-03-24T22:44:07 EDT" name="login" data-provider="Logindata" finished-at="2023-03-24T22:44:07 EDT" duration-ms="452" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.testCase@5a45133e]" started-at="2023-03-31T15:45:19 EDT" name="login" data-provider="Logindata" finished-at="2023-03-31T15:45:19 EDT" duration-ms="750" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -486,7 +188,7 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="DataStructure(java.lang.String)[pri:5, instance:testCases.testCase@793f29ff]" started-at="2023-03-24T22:44:07 EDT" name="DataStructure" data-provider="codedata" finished-at="2023-03-24T22:44:09 EDT" duration-ms="1449" status="PASS">
+        <test-method signature="DataStructure(java.lang.String)[pri:5, instance:testCases.testCase@5a45133e]" started-at="2023-03-31T15:45:19 EDT" name="DataStructure" data-provider="codedata" finished-at="2023-03-31T15:45:21 EDT" duration-ms="1281" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -497,7 +199,7 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DataStructure -->
-        <test-method signature="DataStructure(java.lang.String)[pri:5, instance:testCases.testCase@793f29ff]" started-at="2023-03-24T22:44:09 EDT" name="DataStructure" data-provider="codedata" finished-at="2023-03-24T22:44:10 EDT" duration-ms="994" status="PASS">
+        <test-method signature="DataStructure(java.lang.String)[pri:5, instance:testCases.testCase@5a45133e]" started-at="2023-03-31T15:45:21 EDT" name="DataStructure" data-provider="codedata" finished-at="2023-03-31T15:45:21 EDT" duration-ms="657" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -508,7 +210,7 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DataStructure -->
-        <test-method signature="Array(java.lang.String)[pri:6, instance:testCases.testCase@793f29ff]" started-at="2023-03-24T22:44:10 EDT" name="Array" data-provider="codedata" finished-at="2023-03-24T22:44:19 EDT" duration-ms="9393" status="PASS">
+        <test-method signature="Array(java.lang.String)[pri:6, instance:testCases.testCase@5a45133e]" started-at="2023-03-31T15:45:21 EDT" name="Array" data-provider="codedata" finished-at="2023-03-31T15:45:25 EDT" duration-ms="3846" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -519,7 +221,7 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Array -->
-        <test-method signature="Array(java.lang.String)[pri:6, instance:testCases.testCase@793f29ff]" started-at="2023-03-24T22:44:19 EDT" name="Array" data-provider="codedata" finished-at="2023-03-24T22:44:28 EDT" duration-ms="8736" status="PASS">
+        <test-method signature="Array(java.lang.String)[pri:6, instance:testCases.testCase@5a45133e]" started-at="2023-03-31T15:45:25 EDT" name="Array" data-provider="codedata" finished-at="2023-03-31T15:45:28 EDT" duration-ms="2571" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -530,7 +232,35 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Array -->
-        <test-method signature="LinkedList(java.lang.String)[pri:6, instance:testCases.testCase@793f29ff]" started-at="2023-03-24T22:44:28 EDT" name="LinkedList" data-provider="codedata" finished-at="2023-03-24T22:44:34 EDT" duration-ms="6472" status="PASS">
+        <test-method signature="ArrayPQ(java.lang.String)[pri:6, instance:testCases.testCase@5a45133e]" started-at="2023-03-31T15:45:28 EDT" name="ArrayPQ" data-provider="code" finished-at="2023-03-31T15:45:31 EDT" duration-ms="3106" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lst=[ 1, 6, 3, 5, 3, 4 ]
+
+i=4
+
+if i in lst:
+print("exist")
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ArrayPQ -->
+        <test-method signature="ArrayPQ(java.lang.String)[pri:6, instance:testCases.testCase@5a45133e]" started-at="2023-03-31T15:45:31 EDT" name="ArrayPQ" data-provider="code" finished-at="2023-03-31T15:45:34 EDT" duration-ms="2480" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aaa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ArrayPQ -->
+        <test-method signature="LinkedList(java.lang.String)[pri:6, instance:testCases.testCase@5a45133e]" started-at="2023-03-31T15:45:34 EDT" name="LinkedList" data-provider="codedata" finished-at="2023-03-31T15:45:40 EDT" duration-ms="6299" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -541,7 +271,7 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LinkedList -->
-        <test-method signature="LinkedList(java.lang.String)[pri:6, instance:testCases.testCase@793f29ff]" started-at="2023-03-24T22:44:34 EDT" name="LinkedList" data-provider="codedata" finished-at="2023-03-24T22:44:41 EDT" duration-ms="6425" status="PASS">
+        <test-method signature="LinkedList(java.lang.String)[pri:6, instance:testCases.testCase@5a45133e]" started-at="2023-03-31T15:45:40 EDT" name="LinkedList" data-provider="codedata" finished-at="2023-03-31T15:45:44 EDT" duration-ms="4145" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -552,7 +282,7 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LinkedList -->
-        <test-method signature="queue(java.lang.String)[pri:6, instance:testCases.testCase@793f29ff]" started-at="2023-03-24T22:44:41 EDT" name="queue" data-provider="codedata" finished-at="2023-03-24T22:44:44 EDT" duration-ms="3657" status="PASS">
+        <test-method signature="queue(java.lang.String)[pri:6, instance:testCases.testCase@5a45133e]" started-at="2023-03-31T15:45:44 EDT" name="queue" data-provider="codedata" finished-at="2023-03-31T15:45:48 EDT" duration-ms="3689" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -563,7 +293,7 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- queue -->
-        <test-method signature="queue(java.lang.String)[pri:6, instance:testCases.testCase@793f29ff]" started-at="2023-03-24T22:44:44 EDT" name="queue" data-provider="codedata" finished-at="2023-03-24T22:44:48 EDT" duration-ms="3560" status="PASS">
+        <test-method signature="queue(java.lang.String)[pri:6, instance:testCases.testCase@5a45133e]" started-at="2023-03-31T15:45:48 EDT" name="queue" data-provider="codedata" finished-at="2023-03-31T15:45:50 EDT" duration-ms="2536" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -574,7 +304,7 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- queue -->
-        <test-method signature="graph(java.lang.String)[pri:7, instance:testCases.testCase@793f29ff]" started-at="2023-03-24T22:44:48 EDT" name="graph" data-provider="codedata" finished-at="2023-03-24T22:44:50 EDT" duration-ms="2245" status="PASS">
+        <test-method signature="graph(java.lang.String)[pri:7, instance:testCases.testCase@5a45133e]" started-at="2023-03-31T15:45:50 EDT" name="graph" data-provider="codedata" finished-at="2023-03-31T15:45:53 EDT" duration-ms="2042" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -585,7 +315,7 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- graph -->
-        <test-method signature="graph(java.lang.String)[pri:7, instance:testCases.testCase@793f29ff]" started-at="2023-03-24T22:44:50 EDT" name="graph" data-provider="codedata" finished-at="2023-03-24T22:44:52 EDT" duration-ms="2051" status="PASS">
+        <test-method signature="graph(java.lang.String)[pri:7, instance:testCases.testCase@5a45133e]" started-at="2023-03-31T15:45:53 EDT" name="graph" data-provider="codedata" finished-at="2023-03-31T15:45:54 EDT" duration-ms="1502" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -596,7 +326,7 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- graph -->
-        <test-method signature="tree(java.lang.String)[pri:8, instance:testCases.testCase@793f29ff]" started-at="2023-03-24T22:44:52 EDT" name="tree" data-provider="codedata" finished-at="2023-03-24T22:45:05 EDT" duration-ms="12559" status="PASS">
+        <test-method signature="tree(java.lang.String)[pri:8, instance:testCases.testCase@5a45133e]" started-at="2023-03-31T15:45:54 EDT" name="tree" data-provider="codedata" finished-at="2023-03-31T15:46:07 EDT" duration-ms="12733" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -607,7 +337,7 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tree -->
-        <test-method signature="tree(java.lang.String)[pri:8, instance:testCases.testCase@793f29ff]" started-at="2023-03-24T22:45:05 EDT" name="tree" data-provider="codedata" finished-at="2023-03-24T22:45:16 EDT" duration-ms="11462" status="PASS">
+        <test-method signature="tree(java.lang.String)[pri:8, instance:testCases.testCase@5a45133e]" started-at="2023-03-31T15:46:07 EDT" name="tree" data-provider="codedata" finished-at="2023-03-31T15:46:15 EDT" duration-ms="8097" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -618,7 +348,7 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tree -->
-        <test-method signature="stack(java.lang.String)[pri:9, instance:testCases.testCase@793f29ff]" started-at="2023-03-24T22:45:16 EDT" name="stack" data-provider="codedata" finished-at="2023-03-24T22:45:19 EDT" duration-ms="3043" status="PASS">
+        <test-method signature="stack(java.lang.String)[pri:9, instance:testCases.testCase@5a45133e]" started-at="2023-03-31T15:46:15 EDT" name="stack" data-provider="codedata" finished-at="2023-03-31T15:46:18 EDT" duration-ms="2764" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -629,7 +359,372 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stack -->
-        <test-method signature="stack(java.lang.String)[pri:9, instance:testCases.testCase@793f29ff]" started-at="2023-03-24T22:45:19 EDT" name="stack" data-provider="codedata" finished-at="2023-03-24T22:45:23 EDT" duration-ms="3127" status="PASS">
+        <test-method signature="stack(java.lang.String)[pri:9, instance:testCases.testCase@5a45133e]" started-at="2023-03-31T15:46:18 EDT" name="stack" data-provider="codedata" finished-at="2023-03-31T15:46:20 EDT" duration-ms="2053" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("hello")]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stack -->
+      </class> <!-- testCases.testCase -->
+    </test> <!-- chromeTest -->
+    <test started-at="2023-03-31T15:46:20 EDT" name="firefoxTest" finished-at="2023-03-31T16:11:29 EDT" duration-ms="1508770">
+      <class name="testCases.testCase">
+        <test-method signature="launchBrowser(java.lang.String)[pri:0, instance:testCases.testCase@27406a17]" started-at="2023-03-31T15:46:20 EDT" name="launchBrowser" finished-at="2023-03-31T15:46:23 EDT" duration-ms="3394" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="launchUrl()[pri:1, instance:testCases.testCase@27406a17]" started-at="2023-03-31T15:46:23 EDT" name="launchUrl" finished-at="2023-03-31T15:46:25 EDT" duration-ms="1672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="homepage(java.lang.String,java.lang.String)[pri:2, instance:testCases.testCase@27406a17]" started-at="2023-03-31T15:46:25 EDT" name="homepage" finished-at="2023-03-31T15:46:26 EDT" duration-ms="1598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Arrays]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Stack]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+        <test-method signature="RegisterPage()[pri:3, instance:testCases.testCase@27406a17]" started-at="2023-03-31T15:46:26 EDT" name="RegisterPage" finished-at="2023-03-31T15:46:30 EDT" duration-ms="3599" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //a[text()='Sign out']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [970bf87a-ce55-4b3e-ad11-d1853f633cf4, findElement {using=xpath, value=//a[text()='Sign out']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:45175, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 1458, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:45175/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 970bf87a-ce55-4b3e-ad11-d1853f633cf4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[text()='Sign out']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [970bf87a-ce55-4b3e-ad11-d1853f633cf4, findElement {using=xpath, value=//a[text()='Sign out']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:45175, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 1458, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:45175/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 970bf87a-ce55-4b3e-ad11-d1853f633cf4
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at pageObject.RegisterPage.Register(RegisterPage.java:78)
+at testCases.testCase.RegisterPage(testCase.java:73)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterPage -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.testCase@27406a17]" started-at="2023-03-31T15:46:30 EDT" name="login" data-provider="Logindata" finished-at="2023-03-31T15:46:31 EDT" duration-ms="339" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Numpy@Sdet100_27]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.testCase@27406a17]" started-at="2023-03-31T15:46:31 EDT" name="login" data-provider="Logindata" finished-at="2023-03-31T15:46:31 EDT" duration-ms="339" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.testCase@27406a17]" started-at="2023-03-31T15:46:31 EDT" name="login" data-provider="Logindata" finished-at="2023-03-31T15:46:31 EDT" duration-ms="321" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[uvdh30VI@0599907]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.testCase@27406a17]" started-at="2023-03-31T15:46:31 EDT" name="login" data-provider="Logindata" finished-at="2023-03-31T15:46:32 EDT" duration-ms="449" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Numpy@Sdet100_27]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[uvdh30VI@0599907]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="DataStructure(java.lang.String)[pri:5, instance:testCases.testCase@27406a17]" started-at="2023-03-31T15:46:32 EDT" name="DataStructure" data-provider="codedata" finished-at="2023-03-31T15:46:33 EDT" duration-ms="1545" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[goodmorning]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataStructure -->
+        <test-method signature="DataStructure(java.lang.String)[pri:5, instance:testCases.testCase@27406a17]" started-at="2023-03-31T15:46:33 EDT" name="DataStructure" data-provider="codedata" finished-at="2023-03-31T15:46:34 EDT" duration-ms="1056" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("hello")]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataStructure -->
+        <test-method signature="Array(java.lang.String)[pri:6, instance:testCases.testCase@27406a17]" started-at="2023-03-31T15:46:34 EDT" name="Array" data-provider="codedata" finished-at="2023-03-31T15:46:39 EDT" duration-ms="4336" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[goodmorning]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Array -->
+        <test-method signature="Array(java.lang.String)[pri:6, instance:testCases.testCase@27406a17]" started-at="2023-03-31T15:46:39 EDT" name="Array" data-provider="codedata" finished-at="2023-03-31T15:46:42 EDT" duration-ms="3602" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("hello")]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Array -->
+        <test-method signature="ArrayPQ(java.lang.String)[pri:6, instance:testCases.testCase@27406a17]" started-at="2023-03-31T15:46:42 EDT" name="ArrayPQ" data-provider="code" finished-at="2023-03-31T15:46:45 EDT" duration-ms="2272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lst=[ 1, 6, 3, 5, 3, 4 ]
+
+i=4
+
+if i in lst:
+print("exist")
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ArrayPQ -->
+        <test-method signature="ArrayPQ(java.lang.String)[pri:6, instance:testCases.testCase@27406a17]" started-at="2023-03-31T15:46:45 EDT" name="ArrayPQ" data-provider="code" finished-at="2023-03-31T15:46:47 EDT" duration-ms="2382" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aaa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ArrayPQ -->
+        <test-method signature="LinkedList(java.lang.String)[pri:6, instance:testCases.testCase@27406a17]" started-at="2023-03-31T15:46:47 EDT" name="LinkedList" data-provider="codedata" finished-at="2023-03-31T15:46:54 EDT" duration-ms="7010" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[goodmorning]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LinkedList -->
+        <test-method signature="LinkedList(java.lang.String)[pri:6, instance:testCases.testCase@27406a17]" started-at="2023-03-31T15:46:54 EDT" name="LinkedList" data-provider="codedata" finished-at="2023-03-31T15:47:02 EDT" duration-ms="7704" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("hello")]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LinkedList -->
+        <test-method signature="queue(java.lang.String)[pri:6, instance:testCases.testCase@27406a17]" started-at="2023-03-31T15:47:02 EDT" name="queue" data-provider="codedata" finished-at="2023-03-31T15:47:06 EDT" duration-ms="4065" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[goodmorning]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queue -->
+        <test-method signature="queue(java.lang.String)[pri:6, instance:testCases.testCase@27406a17]" started-at="2023-03-31T15:47:06 EDT" name="queue" data-provider="codedata" finished-at="2023-03-31T15:47:10 EDT" duration-ms="3784" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("hello")]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queue -->
+        <test-method signature="graph(java.lang.String)[pri:7, instance:testCases.testCase@27406a17]" started-at="2023-03-31T15:47:10 EDT" name="graph" data-provider="codedata" finished-at="2023-03-31T15:47:12 EDT" duration-ms="2381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[goodmorning]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- graph -->
+        <test-method signature="graph(java.lang.String)[pri:7, instance:testCases.testCase@27406a17]" started-at="2023-03-31T15:47:12 EDT" name="graph" data-provider="codedata" finished-at="2023-03-31T15:47:15 EDT" duration-ms="2710" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("hello")]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- graph -->
+        <test-method signature="tree(java.lang.String)[pri:8, instance:testCases.testCase@27406a17]" started-at="2023-03-31T15:47:15 EDT" name="tree" data-provider="codedata" finished-at="2023-03-31T15:47:30 EDT" duration-ms="14654" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[goodmorning]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tree -->
+        <test-method signature="tree(java.lang.String)[pri:8, instance:testCases.testCase@27406a17]" started-at="2023-03-31T15:47:30 EDT" name="tree" data-provider="codedata" finished-at="2023-03-31T16:11:19 EDT" duration-ms="1429181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("hello")]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tree -->
+        <test-method signature="stack(java.lang.String)[pri:9, instance:testCases.testCase@27406a17]" started-at="2023-03-31T16:11:19 EDT" name="stack" data-provider="codedata" finished-at="2023-03-31T16:11:22 EDT" duration-ms="3348" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[goodmorning]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stack -->
+        <test-method signature="stack(java.lang.String)[pri:9, instance:testCases.testCase@27406a17]" started-at="2023-03-31T16:11:22 EDT" name="stack" data-provider="codedata" finished-at="2023-03-31T16:11:29 EDT" duration-ms="6413" status="PASS">
           <params>
             <param index="0">
               <value>

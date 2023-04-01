@@ -83,7 +83,11 @@ public class testCase extends BaseClass  {
 	public void Array(String phythonCode) throws Exception {
 		Ap.dropdown();
 		Ap.performarray(phythonCode);
-		Ap.practiceQarray(phythonCode);
+	}
+
+		@Test(priority=6,dataProvider= "code",dataProviderClass = DPclass.class)
+		public void ArrayPQ(String Code) throws Exception {
+		Ap.practiceQarray(Code);
 		}
 	
 	@Test(priority=5,dataProvider= "codedata",dataProviderClass = DPclass.class)

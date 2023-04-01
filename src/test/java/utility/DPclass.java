@@ -27,6 +27,7 @@ public class DPclass {
 		
 		return codedata;
 	}
+	
 	@DataProvider
 	public static String[][]Logindata() throws IOException {
 		
@@ -47,6 +48,28 @@ public class DPclass {
 		}
 		
 		return Logindata;
+	}	
+	
+	@DataProvider
+	public static String[][]code() throws IOException {
+		
+		String path = "/Users/uvaraj/eclipse-workspace/dsAlgo/src/test/resources/LoginData.xlsx";
+		ExcelReader excelreader =new ExcelReader(path);
+		
+		int totalrows = excelreader.getRowCount("sheet3");
+		int totalcolumns = excelreader.getCellCount("sheet3",1 );
+	
+		String code[][]= new String[totalrows][totalcolumns];
+		for(int i=1;i<=totalrows;i++) 
+		{
+			for(int j=0;j<totalcolumns;j++)
+			{
+				
+				code[i-1][j]=excelreader.getCellData("sheet3", i, j);
+			}
+		}
+		
+		return code;
 	}	
 
 }
