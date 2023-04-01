@@ -87,6 +87,7 @@ public class ArrayPage extends BaseClass{
 		driver.navigate().back();
 				
 	}
+	
 	}
 	
 				
