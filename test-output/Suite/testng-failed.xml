@@ -8,7 +8,16 @@
     <classes>
       <class name="testCases.testCase">
         <methods>
+          <include name="queue" invocation-numbers="0 1"/>
           <include name="RegisterPage"/>
+          <include name="teardown"/>
+          <include name="graph" invocation-numbers="0 1"/>
+          <include name="launchUrl"/>
+          <include name="tree" invocation-numbers="0 1"/>
+          <include name="ArrayPQ" invocation-numbers="1"/>
+          <include name="launchBrowser"/>
+          <include name="LinkedList" invocation-numbers="0 1"/>
+          <include name="stack" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- testCases.testCase -->
     </classes>
@@ -21,6 +30,12 @@
       <class name="testCases.testCase">
         <methods>
           <include name="RegisterPage"/>
+          <include name="teardown"/>
+          <include name="graph" invocation-numbers="0 1"/>
+          <include name="launchUrl"/>
+          <include name="tree" invocation-numbers="0 1"/>
+          <include name="launchBrowser"/>
+          <include name="stack" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- testCases.testCase -->
     </classes>
