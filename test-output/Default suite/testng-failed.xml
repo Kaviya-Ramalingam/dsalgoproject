@@ -3,21 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.testCase">
+      <class name="pageObject.SigninPage">
         <methods>
-          <include name="queue" invocation-numbers="0 1"/>
-          <include name="RegisterPage"/>
-          <include name="graph" invocation-numbers="0 1"/>
-          <include name="launchUrl"/>
-          <include name="login" invocation-numbers="0 1 2 3"/>
-          <include name="homepage"/>
-          <include name="tree" invocation-numbers="0 1"/>
-          <include name="DataStructure" invocation-numbers="0 1"/>
-          <include name="launchBrowser"/>
-          <include name="LinkedList" invocation-numbers="0 1"/>
-          <include name="stack" invocation-numbers="0 1"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- testCases.testCase -->
+      </class> <!-- pageObject.SigninPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

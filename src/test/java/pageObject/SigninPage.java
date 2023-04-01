@@ -1,31 +1,12 @@
 package pageObject;
 
-import org.testng.annotations.Test;
-
-import static org.testng.Assert.assertTrue;
-
-import java.io.IOException;
 import java.time.Duration;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
-import java.util.Objects;
-
-import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
-
 import base.BaseClass;
-import utility.ExcelReader;
-
 
 public class SigninPage extends BaseClass{
-	
 	
 	By login = By.xpath("//input[@type='submit']");
 	By username=By.xpath("//input[@id='id_username']");
@@ -33,8 +14,6 @@ public class SigninPage extends BaseClass{
 	By logintitle = By.xpath("//div[@class='alert alert-primary']");
 	By signIn = By.xpath("//a[@href='/login']");
 	
-	
-	@Test(dataProvider="Logindata")
 	public void login(String user, String pswd, String exp) throws InterruptedException {
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));

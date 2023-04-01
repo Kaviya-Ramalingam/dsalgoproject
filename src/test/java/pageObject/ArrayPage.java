@@ -1,13 +1,9 @@
 package pageObject;
 
 import java.io.IOException;
-import java.time.Duration;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
-
 import base.BaseClass;
-import utility.ExcelReader;
 import utility.LoggerLoad;
 
 public class ArrayPage extends BaseClass{
@@ -66,7 +62,6 @@ public class ArrayPage extends BaseClass{
 		driver.findElement(practiceQ).click();
 		
 		int size= driver.findElements(PQTopics).size();
-		System.out.println(size);
 	
 		for(int j=1; j<=size;j++)
 		{
@@ -75,7 +70,7 @@ public class ArrayPage extends BaseClass{
 		    driver.findElement(textInput).sendKeys(Keys.DELETE);	
 			driver.findElement(textInput).sendKeys(Code);
 			driver.findElement(Run).click();
-			System.out.println("after code0");
+			
 				try {
 					driver.switchTo().alert().accept();
 				}
@@ -84,7 +79,7 @@ public class ArrayPage extends BaseClass{
 				}
 				driver.navigate().back();
 				}
-		driver.navigate().back();
+		        driver.navigate().back();
 				
 	}
 	

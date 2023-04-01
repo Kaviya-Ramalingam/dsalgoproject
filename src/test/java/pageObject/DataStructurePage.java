@@ -1,19 +1,13 @@
 package pageObject;
 
 import java.io.IOException;
-import java.time.Duration;
-
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.testng.annotations.Test;
-
 import base.BaseClass;
-import utility.DPclass;
 import utility.LoggerLoad;
 
 public class DataStructurePage extends BaseClass{
+	
 	By getStartedDs= By.xpath("//a[@href='data-structures-introduction']");
-	//By DSgetstarted = By.xpath("//div[@class='row row-cols-1 row-cols-md-3 g-4']/div[1]/div/div/a");
 	By DStimecomplex = By.xpath("//a[@href='time-complexity']");
 	By PracticeQues = By.xpath("//a[text()='Practice Questions']");
 	By tryHere= By.xpath("//a[contains (text(), 'Try here')]");
@@ -26,7 +20,7 @@ public class DataStructurePage extends BaseClass{
 		LoggerLoad.info("user is on datastructure page");	 
 	}
 	
-	public Void AccessDS (String phythonCode) throws IOException, InterruptedException {
+	public void AccessDS (String phythonCode) throws IOException, InterruptedException {
 				
 				driver.findElement(DStimecomplex).click();
 				driver.findElement(tryHere).click();
@@ -41,7 +35,7 @@ public class DataStructurePage extends BaseClass{
 				driver.navigate().back();
 				driver.navigate().back();
 				driver.navigate().back();
-				return null;
+				return  ;
 				
 				}
 	

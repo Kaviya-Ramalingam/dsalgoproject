@@ -3,24 +3,18 @@ package base;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
-import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 import utility.LoggerLoad;
 
 public class BaseClass {
 
 	public static WebDriver driver;
 	public static Properties props;
-
 
 	public void setupApplication() throws IOException
 
@@ -34,12 +28,10 @@ public class BaseClass {
 
 	}
 
-	
-	@Parameters("browser")
-
 	public void crossBrowser(String browsername) {
+
 		if (browsername.equalsIgnoreCase("chrome")) {
-         LoggerLoad.info("Testing on chrome");
+			LoggerLoad.info("Testing on chrome");
 			ChromeOptions co = new ChromeOptions();
 			co.addArguments("--remote-allow-origins=*");
 			driver = new ChromeDriver(co);
@@ -49,11 +41,8 @@ public class BaseClass {
 		} else if (browsername.equalsIgnoreCase("firefox")) {
 			LoggerLoad.info("Testing on firefox");
 			driver = new FirefoxDriver();
-		} else if (browsername.equalsIgnoreCase("edge")) {
-			driver = new EdgeDriver();
+		} else {
+			throw new IllegalArgumentException("Invalid browser value!!");
 		}
-		else {
-      throw new IllegalArgumentException("Invalid browser value!!");
-   }
 	}
 }
