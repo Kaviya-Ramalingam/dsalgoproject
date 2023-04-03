@@ -1,0 +1,100 @@
+['INFO ]2023-04-02 15:25:47,053(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on chrome
+['INFO ]2023-04-02 15:25:50,693(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-04-02 15:25:50,934(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking getStarted DataStructures 
+['INFO ]2023-04-02 15:25:51,367(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-The error message isYou are not logged in
+['INFO ]2023-04-02 15:25:51,626(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-User click on Arrays
+['INFO ]2023-04-02 15:25:52,036(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-The alert message is You are not logged in
+['INFO ]2023-04-02 15:25:52,493(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on Registerpage
+['INFO ]2023-04-02 15:25:54,996(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user warning message:Please fill out this field.
+['INFO ]2023-04-02 15:25:54,996(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verifying the warn message
+['INFO ]2023-04-02 15:25:55,579(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verify the warn message
+['INFO ]2023-04-02 15:25:56,604(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedRegisterPage
+['INFO ]2023-04-02 15:25:59,824(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on datastructure page
+['INFO ]2023-04-02 15:26:01,205(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on datastructure page
+['INFO ]2023-04-02 15:26:02,125(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on Array page
+['INFO ]2023-04-02 15:26:05,830(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on Array page
+['INFO ]2023-04-02 15:26:13,791(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on linkedList page
+['INFO ]2023-04-02 15:26:20,459(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on linkedList page
+['INFO ]2023-04-02 15:26:24,924(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Queue is selected
+['INFO ]2023-04-02 15:26:28,205(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Queue is selected
+['INFO ]2023-04-02 15:26:30,893(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)- user is on graph page
+['INFO ]2023-04-02 15:26:32,967(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)- user is on graph page
+['INFO ]2023-04-02 15:26:34,831(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on tree page
+['INFO ]2023-04-02 15:26:46,675(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on tree page
+['INFO ]2023-04-02 15:26:54,688(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on  stack page
+['INFO ]2023-04-02 15:26:57,344(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on  stack page
+['INFO ]2023-04-02 15:26:59,301(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on firefox
+['INFO ]2023-04-02 15:27:03,514(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-04-02 15:27:03,910(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking getStarted array button
+['INFO ]2023-04-02 15:27:04,128(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-The error message isYou are not logged in
+['INFO ]2023-04-02 15:27:04,348(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-User click on Stack
+['INFO ]2023-04-02 15:27:04,737(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-The alert message is You are not logged in
+['INFO ]2023-04-02 15:27:05,249(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on Registerpage
+['INFO ]2023-04-02 15:27:07,411(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user warning message:Please fill out this field.
+['INFO ]2023-04-02 15:27:07,411(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verifying the warn message
+['INFO ]2023-04-02 15:27:07,811(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verify the warn message
+['INFO ]2023-04-02 15:27:08,396(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedRegisterPage
+['INFO ]2023-04-02 15:27:10,398(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on datastructure page
+['INFO ]2023-04-02 15:27:11,836(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on datastructure page
+['INFO ]2023-04-02 15:27:13,194(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on Array page
+['INFO ]2023-04-02 15:27:17,185(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on Array page
+['INFO ]2023-04-02 15:27:25,773(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on linkedList page
+['INFO ]2023-04-02 15:27:32,236(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on linkedList page
+['INFO ]2023-04-02 15:27:38,148(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Queue is selected
+['INFO ]2023-04-02 15:27:42,437(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Queue is selected
+['INFO ]2023-04-02 15:27:46,283(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)- user is on graph page
+['INFO ]2023-04-02 15:27:48,584(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)- user is on graph page
+['INFO ]2023-04-02 15:27:50,842(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on tree page
+['INFO ]2023-04-02 15:28:02,835(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on tree page
+['INFO ]2023-04-02 15:28:14,178(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on  stack page
+['INFO ]2023-04-02 15:28:17,174(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on  stack page
+['INFO ]2023-04-02 22:48:58,506(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on chrome
+['INFO ]2023-04-02 22:49:02,324(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-04-02 22:49:02,594(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking getStarted DataStructures 
+['INFO ]2023-04-02 22:49:03,108(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-The error message isYou are not logged in
+['INFO ]2023-04-02 22:49:03,364(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-User click on Arrays
+['INFO ]2023-04-02 22:49:03,838(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-The alert message is You are not logged in
+['INFO ]2023-04-02 22:49:04,269(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on Registerpage
+['INFO ]2023-04-02 22:49:06,739(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user warning message:Please fill out this field.
+['INFO ]2023-04-02 22:49:06,740(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verifying the warn message
+['INFO ]2023-04-02 22:49:07,340(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verify the warn message
+['INFO ]2023-04-02 22:49:08,383(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedRegisterPage
+['INFO ]2023-04-02 22:49:11,600(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on datastructure page
+['INFO ]2023-04-02 22:49:12,909(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on datastructure page
+['INFO ]2023-04-02 22:49:13,791(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on Array page
+['INFO ]2023-04-02 22:49:17,788(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on Array page
+['INFO ]2023-04-02 22:49:25,842(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on linkedList page
+['INFO ]2023-04-02 22:49:32,034(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on linkedList page
+['INFO ]2023-04-02 22:49:36,525(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Queue is selected
+['INFO ]2023-04-02 22:49:40,026(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Queue is selected
+['INFO ]2023-04-02 22:49:42,601(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)- user is on graph page
+['INFO ]2023-04-02 22:49:44,604(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)- user is on graph page
+['INFO ]2023-04-02 22:49:46,207(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on tree page
+['INFO ]2023-04-02 22:49:58,032(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on tree page
+['INFO ]2023-04-02 22:50:06,167(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on  stack page
+['INFO ]2023-04-02 22:50:08,760(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on  stack page
+['INFO ]2023-04-02 22:50:10,899(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Testing on firefox
+['INFO ]2023-04-02 22:50:16,040(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking get started page
+['INFO ]2023-04-02 22:50:16,274(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-clicking getStarted array button
+['INFO ]2023-04-02 22:50:16,527(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-The error message isYou are not logged in
+['INFO ]2023-04-02 22:50:16,744(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-User click on Stack
+['INFO ]2023-04-02 22:50:17,164(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-The alert message is You are not logged in
+['INFO ]2023-04-02 22:50:17,716(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on Registerpage
+['INFO ]2023-04-02 22:50:19,884(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user warning message:Please fill out this field.
+['INFO ]2023-04-02 22:50:19,884(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verifying the warn message
+['INFO ]2023-04-02 22:50:20,290(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-verify the warn message
+['INFO ]2023-04-02 22:50:20,929(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Test failed - screenshot capturedRegisterPage
+['INFO ]2023-04-02 22:50:23,045(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on datastructure page
+['INFO ]2023-04-02 22:50:24,542(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on datastructure page
+['INFO ]2023-04-02 22:50:25,922(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on Array page
+['INFO ]2023-04-02 22:50:30,220(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on Array page
+['INFO ]2023-04-02 22:50:39,156(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on linkedList page
+['INFO ]2023-04-02 22:50:45,908(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on linkedList page
+['INFO ]2023-04-02 22:50:53,515(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Queue is selected
+['INFO ]2023-04-02 22:50:57,599(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-Queue is selected
+['INFO ]2023-04-02 22:51:01,817(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)- user is on graph page
+['INFO ]2023-04-02 22:51:04,250(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)- user is on graph page
+['INFO ]2023-04-02 22:51:06,668(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on tree page
+['INFO ]2023-04-02 22:51:19,009(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on tree page
+['INFO ]2023-04-02 22:51:31,244(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on  stack page
+['INFO ]2023-04-02 22:51:34,264(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]utility.LoggerLoad1)-user is on  stack page

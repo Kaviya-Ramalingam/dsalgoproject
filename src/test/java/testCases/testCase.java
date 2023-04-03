@@ -1,14 +1,12 @@
 package testCases;
 
 import java.io.IOException;
-
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-
 import base.BaseClass;
 import pageObject.ArrayPage;
 import pageObject.DataStructurePage;
@@ -53,18 +51,17 @@ public class testCase extends BaseClass {
 	}
 
 	@Parameters({ "string", "string1" })
-	@Test(priority = 2)
+	@Test(priority = 0)
 	public void homepage(String string, String string1) throws InterruptedException, IOException {
 		hp.getStartedhome(string);
 		hp.displayErrorMsg();
 		hp.dropdown(string1);
 		hp.displayalertMsg();
-		// hp.selectdropdown();
 		hp.signIn();
 		hp.register();
 	}
 
-	@Test(priority = 3)
+	@Test(priority = 1)
 	public void RegisterPage() throws InterruptedException, IOException {
 		rp.clickRegister();
 		rp.verifyUserWarnMsg();
@@ -73,30 +70,32 @@ public class testCase extends BaseClass {
 		rp.Register();
 	}
 
-	@Test(priority = 4, dataProvider = "Logindata", dataProviderClass = DPclass.class)
+	@Test(priority = 2, dataProvider = "Logindata", dataProviderClass = DPclass.class)
 	public void login(String user, String pswd, String exp) throws InterruptedException {
 		sp.login(user, pswd, exp);
 
 	}
-
-	@Test(priority = 6, dataProvider = "codedata", dataProviderClass = DPclass.class)
-	public void Array(String phythonCode) throws Exception {
-		Ap.dropdown();
-		Ap.performarray(phythonCode);
-	}
-
-	@Test(priority = 6, dataProvider = "code", dataProviderClass = DPclass.class)
-	public void ArrayPQ(String Code) throws Exception {
-		Ap.practiceQarray(Code);
-	}
-
-	@Test(priority = 5, dataProvider = "codedata", dataProviderClass = DPclass.class)
+	
+	@Test(priority = 3, dataProvider = "codedata", dataProviderClass = DPclass.class)
 	public void DataStructure(String phythonCode) throws Exception {
 		dp.clickdatastructure();
 		dp.AccessDS(phythonCode);
 		//dp.PracticeQ();
 
 	}
+
+	@Test(priority = 4, dataProvider = "codedata", dataProviderClass = DPclass.class)
+	public void Array(String phythonCode) throws Exception {
+		Ap.dropdown();
+		Ap.performarray(phythonCode);
+	}
+
+	@Test(priority = 5, dataProvider = "code", dataProviderClass = DPclass.class)
+	public void ArrayPQ(String Code) throws Exception {
+		Ap.practiceQarray(Code);
+	}
+
+	
 
 	@Test(priority = 6, dataProvider = "codedata", dataProviderClass = DPclass.class)
 	public void LinkedList(String phythonCode) throws IOException, InterruptedException {
@@ -106,14 +105,14 @@ public class testCase extends BaseClass {
 
 	}
 
-	@Test(priority = 6, dataProvider = "codedata", dataProviderClass = DPclass.class)
+	@Test(priority = 7, dataProvider = "codedata", dataProviderClass = DPclass.class)
 	public void queue(String phythonCode) throws Exception {
 		qp.clickQue();
 		qp.AccessQueue(phythonCode);
 		qp.practiceQ();
 	}
 
-	@Test(priority = 7, dataProvider = "codedata", dataProviderClass = DPclass.class)
+	@Test(priority = 8, dataProvider = "codedata", dataProviderClass = DPclass.class)
 	public void graph(String phythonCode) throws IOException, InterruptedException {
 
 		gp.clickGraph();
@@ -122,7 +121,7 @@ public class testCase extends BaseClass {
 
 	}
 
-	@Test(priority = 8, dataProvider = "codedata", dataProviderClass = DPclass.class)
+	@Test(priority = 9, dataProvider = "codedata", dataProviderClass = DPclass.class)
 	public void tree(String phythonCode) throws IOException, InterruptedException {
 
 		tp.clickTree();
@@ -130,7 +129,7 @@ public class testCase extends BaseClass {
 		tp.PracticeQ();
 	}
 
-	@Test(priority = 9, dataProvider = "codedata", dataProviderClass = DPclass.class)
+	@Test(priority = 10, dataProvider = "codedata", dataProviderClass = DPclass.class)
 	public void stack(String phythonCode) throws IOException, InterruptedException {
 		Sp.clickStack();
 		Sp.AccessStack(phythonCode);

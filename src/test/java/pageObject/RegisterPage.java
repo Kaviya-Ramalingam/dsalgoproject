@@ -1,10 +1,8 @@
 package pageObject;
 
 import java.io.IOException;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-
 import base.BaseClass;
 import utility.LoggerLoad;
 import utility.Screenshot;

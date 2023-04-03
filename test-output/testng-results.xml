@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="44" passed="25" failed="19" skipped="0">
+<testng-results ignored="0" total="44" passed="42" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-01T16:24:13 EDT" name="Suite" finished-at="2023-04-01T16:26:23 EDT" duration-ms="130649">
+  <suite started-at="2023-04-02T15:25:46 EDT" name="Suite" finished-at="2023-04-02T15:28:20 EDT" duration-ms="153714">
     <groups>
     </groups>
-    <test started-at="2023-04-01T16:24:13 EDT" name="chromeTest" finished-at="2023-04-01T16:25:00 EDT" duration-ms="47370">
+    <test started-at="2023-04-02T15:25:46 EDT" name="chromeTest" finished-at="2023-04-02T15:26:59 EDT" duration-ms="72715">
       <class name="testCases.testCase">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testCases.testCase@3e27aa33]" started-at="2023-04-01T16:24:13 EDT" name="launchBrowser" finished-at="2023-04-01T16:24:15 EDT" duration-ms="2572" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testCases.testCase@3e27aa33]" started-at="2023-04-02T15:25:46 EDT" name="launchBrowser" finished-at="2023-04-02T15:25:49 EDT" duration-ms="2751" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testCases.testCase@3e27aa33]" started-at="2023-04-01T16:24:15 EDT" name="launchUrl" finished-at="2023-04-01T16:24:17 EDT" duration-ms="1326" status="PASS">
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testCases.testCase@3e27aa33]" started-at="2023-04-02T15:25:49 EDT" name="launchUrl" finished-at="2023-04-02T15:25:50 EDT" duration-ms="1363" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchUrl -->
-        <test-method signature="homepage(java.lang.String,java.lang.String)[pri:2, instance:testCases.testCase@3e27aa33]" started-at="2023-04-01T16:24:17 EDT" name="homepage" finished-at="2023-04-01T16:24:18 EDT" duration-ms="1791" status="PASS">
+        <test-method signature="homepage(java.lang.String,java.lang.String)[pri:0, instance:testCases.testCase@3e27aa33]" started-at="2023-04-02T15:25:50 EDT" name="homepage" finished-at="2023-04-02T15:25:52 EDT" duration-ms="1685" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -38,7 +38,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homepage -->
-        <test-method signature="RegisterPage()[pri:3, instance:testCases.testCase@3e27aa33]" started-at="2023-04-01T16:24:19 EDT" name="RegisterPage" finished-at="2023-04-01T16:24:23 EDT" duration-ms="4232" status="FAIL">
+        <test-method signature="RegisterPage()[pri:1, instance:testCases.testCase@3e27aa33]" started-at="2023-04-02T15:25:52 EDT" name="RegisterPage" finished-at="2023-04-02T15:25:56 EDT" duration-ms="4161" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Sign out']"}
@@ -47,9 +47,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.8.0', revision: '267030adea'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [71edebe5f4cbfd7d863307935799e0b8, findElement {using=xpath, value=//a[text()='Sign out']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, goog:chromeOptions: {debuggerAddress: localhost:55481}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:55481/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 71edebe5f4cbfd7d863307935799e0b8]]>
+Command: [16d7c926cb27ee85a41bdf4af0d06a61, findElement {using=xpath, value=//a[text()='Sign out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, goog:chromeOptions: {debuggerAddress: localhost:61054}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61054/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 16d7c926cb27ee85a41bdf4af0d06a61]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Sign out']"}
@@ -58,9 +58,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.8.0', revision: '267030adea'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [71edebe5f4cbfd7d863307935799e0b8, findElement {using=xpath, value=//a[text()='Sign out']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, goog:chromeOptions: {debuggerAddress: localhost:55481}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:55481/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 71edebe5f4cbfd7d863307935799e0b8
+Command: [16d7c926cb27ee85a41bdf4af0d06a61, findElement {using=xpath, value=//a[text()='Sign out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, goog:chromeOptions: {debuggerAddress: localhost:61054}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61054/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 16d7c926cb27ee85a41bdf4af0d06a61
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -75,8 +75,8 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-at pageObject.RegisterPage.Register(RegisterPage.java:78)
-at testCases.testCase.RegisterPage(testCase.java:72)
+at pageObject.RegisterPage.Register(RegisterPage.java:70)
+at testCases.testCase.RegisterPage(testCase.java:70)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -104,7 +104,7 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegisterPage -->
-        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.testCase@3e27aa33]" started-at="2023-04-01T16:24:24 EDT" name="login" data-provider="Logindata" finished-at="2023-04-01T16:24:24 EDT" duration-ms="547" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.testCase@3e27aa33]" started-at="2023-04-02T15:25:57 EDT" name="login" data-provider="Logindata" finished-at="2023-04-02T15:25:58 EDT" duration-ms="483" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -125,7 +125,7 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.testCase@3e27aa33]" started-at="2023-04-01T16:24:24 EDT" name="login" data-provider="Logindata" finished-at="2023-04-01T16:24:25 EDT" duration-ms="500" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.testCase@3e27aa33]" started-at="2023-04-02T15:25:58 EDT" name="login" data-provider="Logindata" finished-at="2023-04-02T15:25:58 EDT" duration-ms="454" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -146,7 +146,7 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.testCase@3e27aa33]" started-at="2023-04-01T16:24:25 EDT" name="login" data-provider="Logindata" finished-at="2023-04-01T16:24:25 EDT" duration-ms="450" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.testCase@3e27aa33]" started-at="2023-04-02T15:25:58 EDT" name="login" data-provider="Logindata" finished-at="2023-04-02T15:25:59 EDT" duration-ms="492" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -167,7 +167,7 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.testCase@3e27aa33]" started-at="2023-04-01T16:24:25 EDT" name="login" data-provider="Logindata" finished-at="2023-04-01T16:24:26 EDT" duration-ms="541" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.testCase@3e27aa33]" started-at="2023-04-02T15:25:59 EDT" name="login" data-provider="Logindata" finished-at="2023-04-02T15:25:59 EDT" duration-ms="557" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -188,7 +188,7 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="DataStructure(java.lang.String)[pri:5, instance:testCases.testCase@3e27aa33]" started-at="2023-04-01T16:24:26 EDT" name="DataStructure" data-provider="codedata" finished-at="2023-04-01T16:24:27 EDT" duration-ms="1243" status="PASS">
+        <test-method signature="DataStructure(java.lang.String)[pri:3, instance:testCases.testCase@3e27aa33]" started-at="2023-04-02T15:25:59 EDT" name="DataStructure" data-provider="codedata" finished-at="2023-04-02T15:26:01 EDT" duration-ms="1321" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -199,7 +199,7 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DataStructure -->
-        <test-method signature="DataStructure(java.lang.String)[pri:5, instance:testCases.testCase@3e27aa33]" started-at="2023-04-01T16:24:27 EDT" name="DataStructure" data-provider="codedata" finished-at="2023-04-01T16:24:28 EDT" duration-ms="718" status="PASS">
+        <test-method signature="DataStructure(java.lang.String)[pri:3, instance:testCases.testCase@3e27aa33]" started-at="2023-04-02T15:26:01 EDT" name="DataStructure" data-provider="codedata" finished-at="2023-04-02T15:26:01 EDT" duration-ms="751" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -210,7 +210,7 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DataStructure -->
-        <test-method signature="Array(java.lang.String)[pri:6, instance:testCases.testCase@3e27aa33]" started-at="2023-04-01T16:24:28 EDT" name="Array" data-provider="codedata" finished-at="2023-04-01T16:24:32 EDT" duration-ms="3480" status="PASS">
+        <test-method signature="Array(java.lang.String)[pri:4, instance:testCases.testCase@3e27aa33]" started-at="2023-04-02T15:26:01 EDT" name="Array" data-provider="codedata" finished-at="2023-04-02T15:26:05 EDT" duration-ms="3642" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -221,7 +221,7 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Array -->
-        <test-method signature="Array(java.lang.String)[pri:6, instance:testCases.testCase@3e27aa33]" started-at="2023-04-01T16:24:32 EDT" name="Array" data-provider="codedata" finished-at="2023-04-01T16:24:34 EDT" duration-ms="2517" status="PASS">
+        <test-method signature="Array(java.lang.String)[pri:4, instance:testCases.testCase@3e27aa33]" started-at="2023-04-02T15:26:05 EDT" name="Array" data-provider="codedata" finished-at="2023-04-02T15:26:08 EDT" duration-ms="2636" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -232,7 +232,7 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Array -->
-        <test-method signature="ArrayPQ(java.lang.String)[pri:6, instance:testCases.testCase@3e27aa33]" started-at="2023-04-01T16:24:34 EDT" name="ArrayPQ" data-provider="code" finished-at="2023-04-01T16:24:37 EDT" duration-ms="2708" status="PASS">
+        <test-method signature="ArrayPQ(java.lang.String)[pri:5, instance:testCases.testCase@3e27aa33]" started-at="2023-04-02T15:26:08 EDT" name="ArrayPQ" data-provider="code" finished-at="2023-04-02T15:26:10 EDT" duration-ms="2670" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -249,7 +249,7 @@ print("exist")
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ArrayPQ -->
-        <test-method signature="ArrayPQ(java.lang.String)[pri:6, instance:testCases.testCase@3e27aa33]" started-at="2023-04-01T16:24:37 EDT" name="ArrayPQ" data-provider="code" finished-at="2023-04-01T16:24:43 EDT" duration-ms="6142" status="FAIL">
+        <test-method signature="ArrayPQ(java.lang.String)[pri:5, instance:testCases.testCase@3e27aa33]" started-at="2023-04-02T15:26:10 EDT" name="ArrayPQ" data-provider="code" finished-at="2023-04-02T15:26:13 EDT" duration-ms="2465" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -257,70 +257,10 @@ print("exist")
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=111.0.5563.146)
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [71edebe5f4cbfd7d863307935799e0b8, sendKeysToElement {id=9e15aa6f-cfff-4906-8feb-89162947953b, value=[Ljava.lang.CharSequence;@e9eb79f}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, goog:chromeOptions: {debuggerAddress: localhost:55481}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:55481/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on MAC (71edebe5f4cbfd7d863307935799e0b8)] -> xpath: //form[@id='answer_form']/div/div/div[1]/textarea]
-Session ID: 71edebe5f4cbfd7d863307935799e0b8]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=111.0.5563.146)
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [71edebe5f4cbfd7d863307935799e0b8, sendKeysToElement {id=9e15aa6f-cfff-4906-8feb-89162947953b, value=[Ljava.lang.CharSequence;@e9eb79f}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, goog:chromeOptions: {debuggerAddress: localhost:55481}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:55481/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on MAC (71edebe5f4cbfd7d863307935799e0b8)] -> xpath: //form[@id='answer_form']/div/div/div[1]/textarea]
-Session ID: 71edebe5f4cbfd7d863307935799e0b8
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:113)
-at pageObject.ArrayPage.practiceQarray(ArrayPage.java:70)
-at testCases.testCase.ArrayPQ(testCase.java:89)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1589)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ArrayPQ -->
-        <test-method signature="LinkedList(java.lang.String)[pri:6, instance:testCases.testCase@3e27aa33]" started-at="2023-04-01T16:24:43 EDT" name="LinkedList" data-provider="codedata" finished-at="2023-04-01T16:24:48 EDT" duration-ms="5052" status="FAIL">
+        <test-method signature="LinkedList(java.lang.String)[pri:6, instance:testCases.testCase@3e27aa33]" started-at="2023-04-02T15:26:13 EDT" name="LinkedList" data-provider="codedata" finished-at="2023-04-02T15:26:19 EDT" duration-ms="6262" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -328,72 +268,10 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='nav-link dropdown-toggle']"}
-  (Session info: chrome=111.0.5563.146)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [71edebe5f4cbfd7d863307935799e0b8, findElement {using=xpath, value=//a[@class='nav-link dropdown-toggle']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, goog:chromeOptions: {debuggerAddress: localhost:55481}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:55481/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 71edebe5f4cbfd7d863307935799e0b8]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='nav-link dropdown-toggle']"}
-  (Session info: chrome=111.0.5563.146)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [71edebe5f4cbfd7d863307935799e0b8, findElement {using=xpath, value=//a[@class='nav-link dropdown-toggle']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, goog:chromeOptions: {debuggerAddress: localhost:55481}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:55481/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 71edebe5f4cbfd7d863307935799e0b8
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-at pageObject.LinkedlistPage.clickLinkedlist(LinkedlistPage.java:20)
-at testCases.testCase.LinkedList(testCase.java:102)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1589)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LinkedList -->
-        <test-method signature="LinkedList(java.lang.String)[pri:6, instance:testCases.testCase@3e27aa33]" started-at="2023-04-01T16:24:49 EDT" name="LinkedList" data-provider="codedata" finished-at="2023-04-01T16:24:54 EDT" duration-ms="5061" status="FAIL">
+        <test-method signature="LinkedList(java.lang.String)[pri:6, instance:testCases.testCase@3e27aa33]" started-at="2023-04-02T15:26:19 EDT" name="LinkedList" data-provider="codedata" finished-at="2023-04-02T15:26:24 EDT" duration-ms="4870" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -401,72 +279,10 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='nav-link dropdown-toggle']"}
-  (Session info: chrome=111.0.5563.146)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [71edebe5f4cbfd7d863307935799e0b8, findElement {using=xpath, value=//a[@class='nav-link dropdown-toggle']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, goog:chromeOptions: {debuggerAddress: localhost:55481}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:55481/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 71edebe5f4cbfd7d863307935799e0b8]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='nav-link dropdown-toggle']"}
-  (Session info: chrome=111.0.5563.146)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [71edebe5f4cbfd7d863307935799e0b8, findElement {using=xpath, value=//a[@class='nav-link dropdown-toggle']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, goog:chromeOptions: {debuggerAddress: localhost:55481}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:55481/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 71edebe5f4cbfd7d863307935799e0b8
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-at pageObject.LinkedlistPage.clickLinkedlist(LinkedlistPage.java:20)
-at testCases.testCase.LinkedList(testCase.java:102)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1589)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LinkedList -->
-        <test-method signature="queue(java.lang.String)[pri:6, instance:testCases.testCase@3e27aa33]" started-at="2023-04-01T16:24:54 EDT" name="queue" data-provider="codedata" finished-at="2023-04-01T16:24:59 EDT" duration-ms="5010" status="FAIL">
+        <test-method signature="queue(java.lang.String)[pri:7, instance:testCases.testCase@3e27aa33]" started-at="2023-04-02T15:26:24 EDT" name="queue" data-provider="codedata" finished-at="2023-04-02T15:26:28 EDT" duration-ms="3338" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -474,72 +290,10 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='nav-link dropdown-toggle']"}
-  (Session info: chrome=111.0.5563.146)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [71edebe5f4cbfd7d863307935799e0b8, findElement {using=xpath, value=//a[@class='nav-link dropdown-toggle']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, goog:chromeOptions: {debuggerAddress: localhost:55481}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:55481/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 71edebe5f4cbfd7d863307935799e0b8]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='nav-link dropdown-toggle']"}
-  (Session info: chrome=111.0.5563.146)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [71edebe5f4cbfd7d863307935799e0b8, findElement {using=xpath, value=//a[@class='nav-link dropdown-toggle']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, goog:chromeOptions: {debuggerAddress: localhost:55481}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:55481/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 71edebe5f4cbfd7d863307935799e0b8
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-at pageObject.QueuePage.clickQue(QueuePage.java:23)
-at testCases.testCase.queue(testCase.java:110)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1589)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- queue -->
-        <test-method signature="queue(java.lang.String)[pri:6, instance:testCases.testCase@3e27aa33]" started-at="2023-04-01T16:25:00 EDT" name="queue" data-provider="codedata" finished-at="2023-04-01T16:25:00 EDT" duration-ms="163" status="FAIL">
+        <test-method signature="queue(java.lang.String)[pri:7, instance:testCases.testCase@3e27aa33]" started-at="2023-04-02T15:26:28 EDT" name="queue" data-provider="codedata" finished-at="2023-04-02T15:26:30 EDT" duration-ms="2556" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -547,54 +301,10 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to find element with locator By.xpath: //a[@class='nav-link dropdown-toggle']
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //a[@class='nav-link dropdown-toggle']
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-at pageObject.QueuePage.clickQue(QueuePage.java:23)
-at testCases.testCase.queue(testCase.java:110)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1589)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- queue -->
-        <test-method signature="graph(java.lang.String)[pri:7, instance:testCases.testCase@3e27aa33]" started-at="2023-04-01T16:25:00 EDT" name="graph" data-provider="codedata" finished-at="2023-04-01T16:25:00 EDT" duration-ms="3" status="FAIL">
+        <test-method signature="graph(java.lang.String)[pri:8, instance:testCases.testCase@3e27aa33]" started-at="2023-04-02T15:26:30 EDT" name="graph" data-provider="codedata" finished-at="2023-04-02T15:26:32 EDT" duration-ms="2129" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -602,72 +312,10 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=111.0.5563.146)
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [71edebe5f4cbfd7d863307935799e0b8, findElement {using=xpath, value=//a[@class='nav-link dropdown-toggle']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, goog:chromeOptions: {debuggerAddress: localhost:55481}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:55481/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 71edebe5f4cbfd7d863307935799e0b8]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=111.0.5563.146)
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [71edebe5f4cbfd7d863307935799e0b8, findElement {using=xpath, value=//a[@class='nav-link dropdown-toggle']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, goog:chromeOptions: {debuggerAddress: localhost:55481}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:55481/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 71edebe5f4cbfd7d863307935799e0b8
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-at pageObject.GraphPage.clickGraph(GraphPage.java:21)
-at testCases.testCase.graph(testCase.java:118)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1589)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- graph -->
-        <test-method signature="graph(java.lang.String)[pri:7, instance:testCases.testCase@3e27aa33]" started-at="2023-04-01T16:25:00 EDT" name="graph" data-provider="codedata" finished-at="2023-04-01T16:25:00 EDT" duration-ms="3" status="FAIL">
+        <test-method signature="graph(java.lang.String)[pri:8, instance:testCases.testCase@3e27aa33]" started-at="2023-04-02T15:26:32 EDT" name="graph" data-provider="codedata" finished-at="2023-04-02T15:26:34 EDT" duration-ms="1757" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -675,72 +323,10 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=111.0.5563.146)
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [71edebe5f4cbfd7d863307935799e0b8, findElement {using=xpath, value=//a[@class='nav-link dropdown-toggle']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, goog:chromeOptions: {debuggerAddress: localhost:55481}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:55481/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 71edebe5f4cbfd7d863307935799e0b8]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=111.0.5563.146)
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [71edebe5f4cbfd7d863307935799e0b8, findElement {using=xpath, value=//a[@class='nav-link dropdown-toggle']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, goog:chromeOptions: {debuggerAddress: localhost:55481}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:55481/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 71edebe5f4cbfd7d863307935799e0b8
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-at pageObject.GraphPage.clickGraph(GraphPage.java:21)
-at testCases.testCase.graph(testCase.java:118)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1589)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- graph -->
-        <test-method signature="tree(java.lang.String)[pri:8, instance:testCases.testCase@3e27aa33]" started-at="2023-04-01T16:25:00 EDT" name="tree" data-provider="codedata" finished-at="2023-04-01T16:25:00 EDT" duration-ms="2" status="FAIL">
+        <test-method signature="tree(java.lang.String)[pri:9, instance:testCases.testCase@3e27aa33]" started-at="2023-04-02T15:26:34 EDT" name="tree" data-provider="codedata" finished-at="2023-04-02T15:26:46 EDT" duration-ms="11849" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -748,72 +334,10 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=111.0.5563.146)
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [71edebe5f4cbfd7d863307935799e0b8, findElement {using=xpath, value=//a[@class='nav-link dropdown-toggle']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, goog:chromeOptions: {debuggerAddress: localhost:55481}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:55481/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 71edebe5f4cbfd7d863307935799e0b8]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=111.0.5563.146)
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [71edebe5f4cbfd7d863307935799e0b8, findElement {using=xpath, value=//a[@class='nav-link dropdown-toggle']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, goog:chromeOptions: {debuggerAddress: localhost:55481}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:55481/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 71edebe5f4cbfd7d863307935799e0b8
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-at pageObject.TreePage.clickTree(TreePage.java:21)
-at testCases.testCase.tree(testCase.java:127)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1589)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tree -->
-        <test-method signature="tree(java.lang.String)[pri:8, instance:testCases.testCase@3e27aa33]" started-at="2023-04-01T16:25:00 EDT" name="tree" data-provider="codedata" finished-at="2023-04-01T16:25:00 EDT" duration-ms="5" status="FAIL">
+        <test-method signature="tree(java.lang.String)[pri:9, instance:testCases.testCase@3e27aa33]" started-at="2023-04-02T15:26:46 EDT" name="tree" data-provider="codedata" finished-at="2023-04-02T15:26:54 EDT" duration-ms="7943" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -821,72 +345,10 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=111.0.5563.146)
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [71edebe5f4cbfd7d863307935799e0b8, findElement {using=xpath, value=//a[@class='nav-link dropdown-toggle']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, goog:chromeOptions: {debuggerAddress: localhost:55481}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:55481/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 71edebe5f4cbfd7d863307935799e0b8]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=111.0.5563.146)
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [71edebe5f4cbfd7d863307935799e0b8, findElement {using=xpath, value=//a[@class='nav-link dropdown-toggle']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, goog:chromeOptions: {debuggerAddress: localhost:55481}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:55481/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 71edebe5f4cbfd7d863307935799e0b8
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-at pageObject.TreePage.clickTree(TreePage.java:21)
-at testCases.testCase.tree(testCase.java:127)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1589)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tree -->
-        <test-method signature="stack(java.lang.String)[pri:9, instance:testCases.testCase@3e27aa33]" started-at="2023-04-01T16:25:00 EDT" name="stack" data-provider="codedata" finished-at="2023-04-01T16:25:00 EDT" duration-ms="3" status="FAIL">
+        <test-method signature="stack(java.lang.String)[pri:10, instance:testCases.testCase@3e27aa33]" started-at="2023-04-02T15:26:54 EDT" name="stack" data-provider="codedata" finished-at="2023-04-02T15:26:57 EDT" duration-ms="2702" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -894,72 +356,10 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=111.0.5563.146)
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [71edebe5f4cbfd7d863307935799e0b8, findElement {using=xpath, value=//div[@class='nav-item dropdown']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, goog:chromeOptions: {debuggerAddress: localhost:55481}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:55481/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 71edebe5f4cbfd7d863307935799e0b8]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=111.0.5563.146)
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [71edebe5f4cbfd7d863307935799e0b8, findElement {using=xpath, value=//div[@class='nav-item dropdown']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, goog:chromeOptions: {debuggerAddress: localhost:55481}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:55481/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 71edebe5f4cbfd7d863307935799e0b8
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-at pageObject.StackPage.clickStack(StackPage.java:20)
-at testCases.testCase.stack(testCase.java:134)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1589)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stack -->
-        <test-method signature="stack(java.lang.String)[pri:9, instance:testCases.testCase@3e27aa33]" started-at="2023-04-01T16:25:00 EDT" name="stack" data-provider="codedata" finished-at="2023-04-01T16:25:00 EDT" duration-ms="3" status="FAIL">
+        <test-method signature="stack(java.lang.String)[pri:10, instance:testCases.testCase@3e27aa33]" started-at="2023-04-02T15:26:57 EDT" name="stack" data-provider="codedata" finished-at="2023-04-02T15:26:59 EDT" duration-ms="1930" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -967,80 +367,18 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=111.0.5563.146)
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [71edebe5f4cbfd7d863307935799e0b8, findElement {using=xpath, value=//div[@class='nav-item dropdown']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, goog:chromeOptions: {debuggerAddress: localhost:55481}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:55481/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 71edebe5f4cbfd7d863307935799e0b8]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=111.0.5563.146)
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [71edebe5f4cbfd7d863307935799e0b8, findElement {using=xpath, value=//div[@class='nav-item dropdown']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, goog:chromeOptions: {debuggerAddress: localhost:55481}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:55481/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 71edebe5f4cbfd7d863307935799e0b8
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-at pageObject.StackPage.clickStack(StackPage.java:20)
-at testCases.testCase.stack(testCase.java:134)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1589)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stack -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.testCase@3e27aa33]" started-at="2023-04-01T16:25:00 EDT" name="teardown" finished-at="2023-04-01T16:25:00 EDT" duration-ms="109" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.testCase@3e27aa33]" started-at="2023-04-02T15:26:59 EDT" name="teardown" finished-at="2023-04-02T15:26:59 EDT" duration-ms="168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.testCase -->
     </test> <!-- chromeTest -->
-    <test started-at="2023-04-01T16:25:00 EDT" name="firefoxTest" finished-at="2023-04-01T16:26:23 EDT" duration-ms="83232">
+    <test started-at="2023-04-02T15:26:59 EDT" name="firefoxTest" finished-at="2023-04-02T15:28:20 EDT" duration-ms="80971">
       <class name="testCases.testCase">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testCases.testCase@7f485fda]" started-at="2023-04-01T16:25:00 EDT" name="launchBrowser" finished-at="2023-04-01T16:25:03 EDT" duration-ms="2392" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testCases.testCase@7f485fda]" started-at="2023-04-02T15:26:59 EDT" name="launchBrowser" finished-at="2023-04-02T15:27:01 EDT" duration-ms="2507" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1051,11 +389,11 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testCases.testCase@7f485fda]" started-at="2023-04-01T16:25:03 EDT" name="launchUrl" finished-at="2023-04-01T16:25:05 EDT" duration-ms="2333" status="PASS">
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testCases.testCase@7f485fda]" started-at="2023-04-02T15:27:01 EDT" name="launchUrl" finished-at="2023-04-02T15:27:03 EDT" duration-ms="1706" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchUrl -->
-        <test-method signature="homepage(java.lang.String,java.lang.String)[pri:2, instance:testCases.testCase@7f485fda]" started-at="2023-04-01T16:25:05 EDT" name="homepage" finished-at="2023-04-01T16:25:08 EDT" duration-ms="2822" status="PASS">
+        <test-method signature="homepage(java.lang.String,java.lang.String)[pri:0, instance:testCases.testCase@7f485fda]" started-at="2023-04-02T15:27:03 EDT" name="homepage" finished-at="2023-04-02T15:27:05 EDT" duration-ms="1503" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1071,7 +409,7 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homepage -->
-        <test-method signature="RegisterPage()[pri:3, instance:testCases.testCase@7f485fda]" started-at="2023-04-01T16:25:08 EDT" name="RegisterPage" finished-at="2023-04-01T16:25:12 EDT" duration-ms="4676" status="FAIL">
+        <test-method signature="RegisterPage()[pri:1, instance:testCases.testCase@7f485fda]" started-at="2023-04-02T15:27:05 EDT" name="RegisterPage" finished-at="2023-04-02T15:27:08 EDT" duration-ms="3377" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: //a[text()='Sign out']
@@ -1079,9 +417,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.8.0', revision: '267030adea'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [90ae812a-bed2-45a4-8c22-65c69c8e012a, findElement {using=xpath, value=//a[text()='Sign out']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:41451, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 5804, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:41451/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 90ae812a-bed2-45a4-8c22-65c69c8e012a]]>
+Command: [a9bcdd16-413e-4aa7-9ddc-3adad388c133, findElement {using=xpath, value=//a[text()='Sign out']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:42350, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 10419, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:42350/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a9bcdd16-413e-4aa7-9ddc-3adad388c133]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[text()='Sign out']
@@ -1089,9 +427,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.8.0', revision: '267030adea'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [90ae812a-bed2-45a4-8c22-65c69c8e012a, findElement {using=xpath, value=//a[text()='Sign out']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:41451, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 5804, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:41451/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 90ae812a-bed2-45a4-8c22-65c69c8e012a
+Command: [a9bcdd16-413e-4aa7-9ddc-3adad388c133, findElement {using=xpath, value=//a[text()='Sign out']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:42350, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 10419, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:42350/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a9bcdd16-413e-4aa7-9ddc-3adad388c133
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -1106,8 +444,8 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-at pageObject.RegisterPage.Register(RegisterPage.java:78)
-at testCases.testCase.RegisterPage(testCase.java:72)
+at pageObject.RegisterPage.Register(RegisterPage.java:70)
+at testCases.testCase.RegisterPage(testCase.java:70)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -1135,7 +473,7 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegisterPage -->
-        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.testCase@7f485fda]" started-at="2023-04-01T16:25:13 EDT" name="login" data-provider="Logindata" finished-at="2023-04-01T16:25:13 EDT" duration-ms="865" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.testCase@7f485fda]" started-at="2023-04-02T15:27:08 EDT" name="login" data-provider="Logindata" finished-at="2023-04-02T15:27:09 EDT" duration-ms="511" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1156,7 +494,7 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.testCase@7f485fda]" started-at="2023-04-01T16:25:13 EDT" name="login" data-provider="Logindata" finished-at="2023-04-01T16:25:14 EDT" duration-ms="821" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.testCase@7f485fda]" started-at="2023-04-02T15:27:09 EDT" name="login" data-provider="Logindata" finished-at="2023-04-02T15:27:09 EDT" duration-ms="312" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1177,7 +515,7 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.testCase@7f485fda]" started-at="2023-04-01T16:25:14 EDT" name="login" data-provider="Logindata" finished-at="2023-04-01T16:25:15 EDT" duration-ms="860" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.testCase@7f485fda]" started-at="2023-04-02T15:27:09 EDT" name="login" data-provider="Logindata" finished-at="2023-04-02T15:27:09 EDT" duration-ms="303" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1198,7 +536,7 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.testCase@7f485fda]" started-at="2023-04-01T16:25:15 EDT" name="login" data-provider="Logindata" finished-at="2023-04-01T16:25:16 EDT" duration-ms="979" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.testCase@7f485fda]" started-at="2023-04-02T15:27:09 EDT" name="login" data-provider="Logindata" finished-at="2023-04-02T15:27:10 EDT" duration-ms="416" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1219,7 +557,7 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="DataStructure(java.lang.String)[pri:5, instance:testCases.testCase@7f485fda]" started-at="2023-04-01T16:25:16 EDT" name="DataStructure" data-provider="codedata" finished-at="2023-04-01T16:25:20 EDT" duration-ms="3304" status="PASS">
+        <test-method signature="DataStructure(java.lang.String)[pri:3, instance:testCases.testCase@7f485fda]" started-at="2023-04-02T15:27:10 EDT" name="DataStructure" data-provider="codedata" finished-at="2023-04-02T15:27:11 EDT" duration-ms="1424" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1230,7 +568,7 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DataStructure -->
-        <test-method signature="DataStructure(java.lang.String)[pri:5, instance:testCases.testCase@7f485fda]" started-at="2023-04-01T16:25:20 EDT" name="DataStructure" data-provider="codedata" finished-at="2023-04-01T16:25:22 EDT" duration-ms="2914" status="PASS">
+        <test-method signature="DataStructure(java.lang.String)[pri:3, instance:testCases.testCase@7f485fda]" started-at="2023-04-02T15:27:11 EDT" name="DataStructure" data-provider="codedata" finished-at="2023-04-02T15:27:12 EDT" duration-ms="1105" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1241,7 +579,7 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DataStructure -->
-        <test-method signature="Array(java.lang.String)[pri:6, instance:testCases.testCase@7f485fda]" started-at="2023-04-01T16:25:22 EDT" name="Array" data-provider="codedata" finished-at="2023-04-01T16:25:33 EDT" duration-ms="10243" status="PASS">
+        <test-method signature="Array(java.lang.String)[pri:4, instance:testCases.testCase@7f485fda]" started-at="2023-04-02T15:27:12 EDT" name="Array" data-provider="codedata" finished-at="2023-04-02T15:27:16 EDT" duration-ms="3996" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1252,7 +590,7 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Array -->
-        <test-method signature="Array(java.lang.String)[pri:6, instance:testCases.testCase@7f485fda]" started-at="2023-04-01T16:25:33 EDT" name="Array" data-provider="codedata" finished-at="2023-04-01T16:25:43 EDT" duration-ms="10057" status="PASS">
+        <test-method signature="Array(java.lang.String)[pri:4, instance:testCases.testCase@7f485fda]" started-at="2023-04-02T15:27:16 EDT" name="Array" data-provider="codedata" finished-at="2023-04-02T15:27:20 EDT" duration-ms="3438" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1263,7 +601,7 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Array -->
-        <test-method signature="ArrayPQ(java.lang.String)[pri:6, instance:testCases.testCase@7f485fda]" started-at="2023-04-01T16:25:43 EDT" name="ArrayPQ" data-provider="code" finished-at="2023-04-01T16:25:57 EDT" duration-ms="14675" status="PASS">
+        <test-method signature="ArrayPQ(java.lang.String)[pri:5, instance:testCases.testCase@7f485fda]" started-at="2023-04-02T15:27:20 EDT" name="ArrayPQ" data-provider="code" finished-at="2023-04-02T15:27:22 EDT" duration-ms="2595" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1280,7 +618,7 @@ print("exist")
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ArrayPQ -->
-        <test-method signature="ArrayPQ(java.lang.String)[pri:6, instance:testCases.testCase@7f485fda]" started-at="2023-04-01T16:25:57 EDT" name="ArrayPQ" data-provider="code" finished-at="2023-04-01T16:26:00 EDT" duration-ms="2117" status="PASS">
+        <test-method signature="ArrayPQ(java.lang.String)[pri:5, instance:testCases.testCase@7f485fda]" started-at="2023-04-02T15:27:22 EDT" name="ArrayPQ" data-provider="code" finished-at="2023-04-02T15:27:24 EDT" duration-ms="1987" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1291,7 +629,7 @@ print("exist")
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ArrayPQ -->
-        <test-method signature="LinkedList(java.lang.String)[pri:6, instance:testCases.testCase@7f485fda]" started-at="2023-04-01T16:26:00 EDT" name="LinkedList" data-provider="codedata" finished-at="2023-04-01T16:26:07 EDT" duration-ms="7644" status="PASS">
+        <test-method signature="LinkedList(java.lang.String)[pri:6, instance:testCases.testCase@7f485fda]" started-at="2023-04-02T15:27:24 EDT" name="LinkedList" data-provider="codedata" finished-at="2023-04-02T15:27:31 EDT" duration-ms="6953" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1302,7 +640,7 @@ print("exist")
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LinkedList -->
-        <test-method signature="LinkedList(java.lang.String)[pri:6, instance:testCases.testCase@7f485fda]" started-at="2023-04-01T16:26:07 EDT" name="LinkedList" data-provider="codedata" finished-at="2023-04-01T16:26:14 EDT" duration-ms="6916" status="PASS">
+        <test-method signature="LinkedList(java.lang.String)[pri:6, instance:testCases.testCase@7f485fda]" started-at="2023-04-02T15:27:31 EDT" name="LinkedList" data-provider="codedata" finished-at="2023-04-02T15:27:37 EDT" duration-ms="5846" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1313,7 +651,7 @@ print("exist")
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LinkedList -->
-        <test-method signature="queue(java.lang.String)[pri:6, instance:testCases.testCase@7f485fda]" started-at="2023-04-01T16:26:14 EDT" name="queue" data-provider="codedata" finished-at="2023-04-01T16:26:18 EDT" duration-ms="4020" status="PASS">
+        <test-method signature="queue(java.lang.String)[pri:7, instance:testCases.testCase@7f485fda]" started-at="2023-04-02T15:27:37 EDT" name="queue" data-provider="codedata" finished-at="2023-04-02T15:27:42 EDT" duration-ms="4338" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1324,7 +662,7 @@ print("exist")
           <reporter-output>
           </reporter-output>
         </test-method> <!-- queue -->
-        <test-method signature="queue(java.lang.String)[pri:6, instance:testCases.testCase@7f485fda]" started-at="2023-04-01T16:26:18 EDT" name="queue" data-provider="codedata" finished-at="2023-04-01T16:26:22 EDT" duration-ms="3739" status="PASS">
+        <test-method signature="queue(java.lang.String)[pri:7, instance:testCases.testCase@7f485fda]" started-at="2023-04-02T15:27:42 EDT" name="queue" data-provider="codedata" finished-at="2023-04-02T15:27:45 EDT" duration-ms="3735" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1335,7 +673,7 @@ print("exist")
           <reporter-output>
           </reporter-output>
         </test-method> <!-- queue -->
-        <test-method signature="graph(java.lang.String)[pri:7, instance:testCases.testCase@7f485fda]" started-at="2023-04-01T16:26:22 EDT" name="graph" data-provider="codedata" finished-at="2023-04-01T16:26:23 EDT" duration-ms="518" status="FAIL">
+        <test-method signature="graph(java.lang.String)[pri:8, instance:testCases.testCase@7f485fda]" started-at="2023-04-02T15:27:45 EDT" name="graph" data-provider="codedata" finished-at="2023-04-02T15:27:48 EDT" duration-ms="2344" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1343,68 +681,10 @@ print("exist")
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[Browsing context has been discarded
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [90ae812a-bed2-45a4-8c22-65c69c8e012a, findElement {using=xpath, value=//a[contains (text(), 'Try here')]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:41451, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 5804, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:41451/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 90ae812a-bed2-45a4-8c22-65c69c8e012a]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [90ae812a-bed2-45a4-8c22-65c69c8e012a, findElement {using=xpath, value=//a[contains (text(), 'Try here')]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:41451, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 5804, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:41451/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 90ae812a-bed2-45a4-8c22-65c69c8e012a
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-at pageObject.GraphPage.AccessGraph(GraphPage.java:35)
-at testCases.testCase.graph(testCase.java:119)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1589)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- graph -->
-        <test-method signature="graph(java.lang.String)[pri:7, instance:testCases.testCase@7f485fda]" started-at="2023-04-01T16:26:23 EDT" name="graph" data-provider="codedata" finished-at="2023-04-01T16:26:23 EDT" duration-ms="4" status="FAIL">
+        <test-method signature="graph(java.lang.String)[pri:8, instance:testCases.testCase@7f485fda]" started-at="2023-04-02T15:27:48 EDT" name="graph" data-provider="codedata" finished-at="2023-04-02T15:27:50 EDT" duration-ms="2180" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1412,68 +692,10 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[Browsing context has been discarded
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [90ae812a-bed2-45a4-8c22-65c69c8e012a, findElement {using=xpath, value=//a[@class='nav-link dropdown-toggle']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:41451, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 5804, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:41451/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 90ae812a-bed2-45a4-8c22-65c69c8e012a]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [90ae812a-bed2-45a4-8c22-65c69c8e012a, findElement {using=xpath, value=//a[@class='nav-link dropdown-toggle']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:41451, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 5804, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:41451/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 90ae812a-bed2-45a4-8c22-65c69c8e012a
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-at pageObject.GraphPage.clickGraph(GraphPage.java:21)
-at testCases.testCase.graph(testCase.java:118)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1589)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- graph -->
-        <test-method signature="tree(java.lang.String)[pri:8, instance:testCases.testCase@7f485fda]" started-at="2023-04-01T16:26:23 EDT" name="tree" data-provider="codedata" finished-at="2023-04-01T16:26:23 EDT" duration-ms="5" status="FAIL">
+        <test-method signature="tree(java.lang.String)[pri:9, instance:testCases.testCase@7f485fda]" started-at="2023-04-02T15:27:50 EDT" name="tree" data-provider="codedata" finished-at="2023-04-02T15:28:02 EDT" duration-ms="12047" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1481,68 +703,10 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[Browsing context has been discarded
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [90ae812a-bed2-45a4-8c22-65c69c8e012a, findElement {using=xpath, value=//a[@class='nav-link dropdown-toggle']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:41451, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 5804, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:41451/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 90ae812a-bed2-45a4-8c22-65c69c8e012a]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [90ae812a-bed2-45a4-8c22-65c69c8e012a, findElement {using=xpath, value=//a[@class='nav-link dropdown-toggle']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:41451, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 5804, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:41451/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 90ae812a-bed2-45a4-8c22-65c69c8e012a
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-at pageObject.TreePage.clickTree(TreePage.java:21)
-at testCases.testCase.tree(testCase.java:127)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1589)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tree -->
-        <test-method signature="tree(java.lang.String)[pri:8, instance:testCases.testCase@7f485fda]" started-at="2023-04-01T16:26:23 EDT" name="tree" data-provider="codedata" finished-at="2023-04-01T16:26:23 EDT" duration-ms="3" status="FAIL">
+        <test-method signature="tree(java.lang.String)[pri:9, instance:testCases.testCase@7f485fda]" started-at="2023-04-02T15:28:02 EDT" name="tree" data-provider="codedata" finished-at="2023-04-02T15:28:13 EDT" duration-ms="11299" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1550,68 +714,10 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[Browsing context has been discarded
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [90ae812a-bed2-45a4-8c22-65c69c8e012a, findElement {using=xpath, value=//a[@class='nav-link dropdown-toggle']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:41451, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 5804, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:41451/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 90ae812a-bed2-45a4-8c22-65c69c8e012a]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [90ae812a-bed2-45a4-8c22-65c69c8e012a, findElement {using=xpath, value=//a[@class='nav-link dropdown-toggle']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:41451, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 5804, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:41451/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 90ae812a-bed2-45a4-8c22-65c69c8e012a
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-at pageObject.TreePage.clickTree(TreePage.java:21)
-at testCases.testCase.tree(testCase.java:127)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1589)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tree -->
-        <test-method signature="stack(java.lang.String)[pri:9, instance:testCases.testCase@7f485fda]" started-at="2023-04-01T16:26:23 EDT" name="stack" data-provider="codedata" finished-at="2023-04-01T16:26:23 EDT" duration-ms="4" status="FAIL">
+        <test-method signature="stack(java.lang.String)[pri:10, instance:testCases.testCase@7f485fda]" started-at="2023-04-02T15:28:13 EDT" name="stack" data-provider="codedata" finished-at="2023-04-02T15:28:16 EDT" duration-ms="2953" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1619,68 +725,10 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[Browsing context has been discarded
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [90ae812a-bed2-45a4-8c22-65c69c8e012a, findElement {using=xpath, value=//div[@class='nav-item dropdown']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:41451, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 5804, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:41451/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 90ae812a-bed2-45a4-8c22-65c69c8e012a]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [90ae812a-bed2-45a4-8c22-65c69c8e012a, findElement {using=xpath, value=//div[@class='nav-item dropdown']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:41451, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 5804, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:41451/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 90ae812a-bed2-45a4-8c22-65c69c8e012a
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-at pageObject.StackPage.clickStack(StackPage.java:20)
-at testCases.testCase.stack(testCase.java:134)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1589)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stack -->
-        <test-method signature="stack(java.lang.String)[pri:9, instance:testCases.testCase@7f485fda]" started-at="2023-04-01T16:26:23 EDT" name="stack" data-provider="codedata" finished-at="2023-04-01T16:26:23 EDT" duration-ms="3" status="FAIL">
+        <test-method signature="stack(java.lang.String)[pri:10, instance:testCases.testCase@7f485fda]" started-at="2023-04-02T15:28:16 EDT" name="stack" data-provider="codedata" finished-at="2023-04-02T15:28:19 EDT" duration-ms="2868" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1688,68 +736,10 @@ at java.base/java.lang.Thread.run(Thread.java:1589)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[Browsing context has been discarded
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [90ae812a-bed2-45a4-8c22-65c69c8e012a, findElement {using=xpath, value=//div[@class='nav-item dropdown']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:41451, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 5804, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:41451/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 90ae812a-bed2-45a4-8c22-65c69c8e012a]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [90ae812a-bed2-45a4-8c22-65c69c8e012a, findElement {using=xpath, value=//div[@class='nav-item dropdown']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:41451, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 5804, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:41451/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 90ae812a-bed2-45a4-8c22-65c69c8e012a
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-at pageObject.StackPage.clickStack(StackPage.java:20)
-at testCases.testCase.stack(testCase.java:134)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1589)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stack -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.testCase@7f485fda]" started-at="2023-04-01T16:26:23 EDT" name="teardown" finished-at="2023-04-01T16:26:23 EDT" duration-ms="660" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.testCase@7f485fda]" started-at="2023-04-02T15:28:19 EDT" name="teardown" finished-at="2023-04-02T15:28:20 EDT" duration-ms="593" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
