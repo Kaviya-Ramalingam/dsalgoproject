@@ -1,6 +1,8 @@
 package testCases;
 
 import java.io.IOException;
+
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
@@ -8,6 +10,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import base.BaseClass;
+import base.Retry;
 import pageObject.ArrayPage;
 import pageObject.DataStructurePage;
 import pageObject.GetStarted;
@@ -35,11 +38,13 @@ public class testCase extends BaseClass {
 	ArrayPage Ap = new ArrayPage();
 	StackPage Sp = new StackPage();
 	LinkedlistPage lp = new LinkedlistPage();
+	
 
 	@BeforeTest
 	@Parameters({ "browser" })
-	public void launchBrowser(String browsername) {
+	public void launchBrowser(String browsername) throws IOException {
 		crossBrowser(browsername);
+		
 
 	}
 
@@ -49,9 +54,9 @@ public class testCase extends BaseClass {
 		setupApplication();
 		gs.getstarted();
 	}
-
+	
 	@Parameters({ "string", "string1" })
-	@Test(priority = 0)
+	@Test(priority = 0,retryAnalyzer = Retry.class)
 	public void homepage(String string, String string1) throws InterruptedException, IOException {
 		hp.getStartedhome(string);
 		hp.displayErrorMsg();
@@ -61,20 +66,23 @@ public class testCase extends BaseClass {
 		hp.register();
 	}
 
-	@Test(priority = 1)
+	@Test(priority = 1,retryAnalyzer = Retry.class)
 	public void RegisterPage() throws InterruptedException, IOException {
 		rp.clickRegister();
 		rp.verifyUserWarnMsg();
 		rp.verifyPassWarnMsg();
 		rp.verifyConPassWarnMsg();
 		rp.Register();
+		//Assert.assertEquals(true,"New account created");
 	}
-
+	
 	@Test(priority = 2, dataProvider = "Logindata", dataProviderClass = DPclass.class)
 	public void login(String user, String pswd, String exp) throws InterruptedException {
 		sp.login(user, pswd, exp);
 
 	}
+
+	
 	
 	@Test(priority = 3, dataProvider = "codedata", dataProviderClass = DPclass.class)
 	public void DataStructure(String phythonCode) throws Exception {
@@ -139,7 +147,8 @@ public class testCase extends BaseClass {
 	@AfterClass
 	public void teardown()
 	{
-		driver.quit();
+		
+		getDriver().quit();
 	}
 
 
