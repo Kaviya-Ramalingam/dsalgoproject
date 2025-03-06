@@ -2,6 +2,8 @@ package pageObject;
 
 import java.io.IOException;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
 import base.BaseClass;
 import utility.LoggerLoad;
 
@@ -16,40 +18,41 @@ public class TreePage extends BaseClass {
 	By OverviewTree = By.xpath("//a[text()='Overview of Trees']");
 	By PracticeQues = By.xpath("//a[text()='Practice Questions']");
 
+
 	public void clickTree() throws IOException, InterruptedException {
 
-		driver.findElement(dropDown).click();
-		driver.findElement(tree).click();
+		getDriver().findElement(dropDown).click();
+		getDriver().findElement(tree).click();
 		LoggerLoad.info("user is on tree page");
 	}
 
 	public void Tree(String phythonCode) throws IOException, InterruptedException {
 
-		int size = driver.findElements(topic).size();
+		int size = getDriver().findElements(topic).size();
 
 		for (int j = 1; j <= size; j++) {
 
 			By Topic = By.xpath("//body/div/ul[" + j + "]/a[@class='list-group-item']");
 
-			driver.findElement(Topic).click();
-			driver.findElement(tryHere).click();
-			driver.findElement(textInput).sendKeys(phythonCode);
-			driver.findElement(Run).click();
+			getDriver().findElement(Topic).click();
+			getDriver().findElement(tryHere).click();
+			getDriver().findElement(textInput).sendKeys(phythonCode);
+			getDriver().findElement(Run).click();
 			try {
-				driver.switchTo().alert().accept();
+				getDriver().switchTo().alert().accept();
 			} catch (Exception e) {
 
 			}
 
-			driver.navigate().back();
-			driver.navigate().back();
+			getDriver().navigate().back();
+			getDriver().navigate().back();
 
 		}
 	}
 
 	public void PracticeQ() {
-		driver.findElement(OverviewTree).click();
-		driver.findElement(PracticeQues).click();
+		getDriver().findElement(OverviewTree).click();
+		getDriver().findElement(PracticeQues).click();
 
 	}
 }

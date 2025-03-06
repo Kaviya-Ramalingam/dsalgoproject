@@ -7,12 +7,15 @@ import java.util.Date;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+
 import base.BaseClass;
 
 public class Screenshot extends BaseClass {
-
+	static WebDriver driver = thdriver.get();
+	
 	public static void takeScreenshot(String stepName) throws IOException {
-
+		
 		TakesScreenshot screenshot = (TakesScreenshot) driver;
 		File src = screenshot.getScreenshotAs(OutputType.FILE);
 		String dir = System.getProperty("user.dir");

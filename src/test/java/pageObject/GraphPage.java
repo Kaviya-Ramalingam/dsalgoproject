@@ -2,6 +2,8 @@ package pageObject;
 
 import java.io.IOException;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
 import base.BaseClass;
 import utility.LoggerLoad;
 
@@ -16,10 +18,11 @@ public class GraphPage extends BaseClass {
 	By topicGraph = By.xpath("//a[@href='graph']");
 	By PracticeQue = By.xpath("//a[text()='Practice Questions']");
 
+	
 	public void clickGraph() throws IOException, InterruptedException {
 
-		driver.findElement(dropDown).click();
-		driver.findElement(Graph).click();
+		getDriver().findElement(dropDown).click();
+		getDriver().findElement(Graph).click();
 		LoggerLoad.info(" user is on graph page");
 	}
 
@@ -31,23 +34,23 @@ public class GraphPage extends BaseClass {
 
 			By Topic = By.xpath("//body/div/ul[" + j + "]/a[@class='list-group-item']");
 
-			driver.findElement(Topic).click();
-			driver.findElement(tryHere).click();
-			driver.findElement(textInput).sendKeys(phythonCode);
-			driver.findElement(Run).click();
+			getDriver().findElement(Topic).click();
+			getDriver().findElement(tryHere).click();
+			getDriver().findElement(textInput).sendKeys(phythonCode);
+			getDriver().findElement(Run).click();
 
 			try {
-				driver.switchTo().alert().accept();
+				getDriver().switchTo().alert().accept();
 			} catch (Exception e) {
 			}
-			driver.navigate().back();
-			driver.navigate().back();
+			getDriver().navigate().back();
+			getDriver().navigate().back();
 		}
 	}
 
 	public void practiceQ() {
-		driver.findElement(topicGraph).click();
-		driver.findElement(PracticeQue).click();
+		getDriver().findElement(topicGraph).click();
+		getDriver().findElement(PracticeQue).click();
 
 	}
 

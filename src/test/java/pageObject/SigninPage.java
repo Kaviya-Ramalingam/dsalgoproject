@@ -2,6 +2,7 @@ package pageObject;
 
 import java.time.Duration;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import base.BaseClass;
@@ -14,16 +15,18 @@ public class SigninPage extends BaseClass{
 	By logintitle = By.xpath("//div[@class='alert alert-primary']");
 	By signIn = By.xpath("//a[@href='/login']");
 	
+	
+
 	public void login(String user, String pswd, String exp) throws InterruptedException {
 		
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-		driver.findElement(signIn).click();
-		driver.findElement(username).sendKeys(user);
-		driver.findElement(password).sendKeys(pswd);
-		driver.findElement(login).click();
+		getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		getDriver().findElement(signIn).click();
+		getDriver().findElement(username).sendKeys(user);
+		getDriver().findElement(password).sendKeys(pswd);
+		getDriver().findElement(login).click();
 		
 		String expTitle= "You are logged in";
-	    WebElement verifyTitle=	driver.findElement(logintitle);
+	    WebElement verifyTitle=	getDriver().findElement(logintitle);
 		String actualTitle= verifyTitle.getText();
 		
 		if(exp.equals("valid"))

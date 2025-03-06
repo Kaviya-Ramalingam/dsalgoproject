@@ -1,6 +1,8 @@
 package pageObject;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
 import base.BaseClass;
 import utility.LoggerLoad;
 
@@ -18,38 +20,44 @@ public class QueuePage extends BaseClass {
 	By practiceQ = By.xpath("//a[text()='Practice Questions']");
 	By Topics = By.xpath("//body/div/ul/a[@class='list-group-item']");
 
+	WebDriver driver ;
+	
+	public QueuePage() {
+		this.driver=thdriver.get();
+	}
+
 	public void clickQue() {
 
-		driver.findElement(dropdown).click();
-		driver.findElement(queue).click();
+		getDriver().findElement(dropdown).click();
+		getDriver().findElement(queue).click();
 		LoggerLoad.info("Queue is selected");
 	}
 
 	public void AccessQueue(String phythonCode) {
 
-		int size = driver.findElements(Topics).size();
+		int size = getDriver().findElements(Topics).size();
 		for (int j = 1; j <= size; j++) {
 			By Topic = By.xpath("//body/div/ul[" + j + "]/a[@class='list-group-item']");
-			driver.findElement(Topic).click();
-			driver.findElement(tryHere).click();
-			driver.findElement(inputText).sendKeys(phythonCode);
-			driver.findElement(Run).click();
+			getDriver().findElement(Topic).click();
+			getDriver().findElement(tryHere).click();
+			getDriver().findElement(inputText).sendKeys(phythonCode);
+			getDriver().findElement(Run).click();
 
 			try {
-				driver.switchTo().alert().accept();
+				getDriver().switchTo().alert().accept();
 			} catch (Exception e) {
 
 			}
 
-			driver.navigate().back();
-			driver.navigate().back();
+			getDriver().navigate().back();
+			getDriver().navigate().back();
 		}
 
 	}
 
 	public void practiceQ() {
-		driver.findElement(queuephython).click();
-		driver.findElement(practiceQ).click();
+		getDriver().findElement(queuephython).click();
+		getDriver().findElement(practiceQ).click();
 	}
 
 }

@@ -2,6 +2,8 @@ package pageObject;
 
 import java.io.IOException;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
 import base.BaseClass;
 import utility.LoggerLoad;
 import utility.Screenshot;
@@ -26,10 +28,21 @@ public class homePage extends BaseClass {
 	By dropdowngraph = By.xpath("//div[@class='dropdown-menu show']/a[6]");
 	By signIn = By.xpath("//a[@href='/login']");
 	By register = By.xpath("//a[@href='/register']");
+	
+	////div[@id="navbarCollapse"]/div[1]/div/div/a[3]
 
-	public void getStartedhome(String string) {
+	
+/*	public homePage() {
+		this.driver=thdriver.get();
+	}*/
 
+	public void getStartedhome(String string) throws InterruptedException {
+		
+		WebDriver driver = getDriver();
+		
+		Thread.sleep(2000);
 		switch (string) {
+	
 
 		case "Data Structures-Introduction":
 
@@ -76,7 +89,11 @@ public class homePage extends BaseClass {
 
 	}
 
-	public void dropdown(String string1) {
+	public void dropdown(String string1) throws InterruptedException {
+		
+		WebDriver driver = getDriver();
+		
+		Thread.sleep(2000);
 
 		driver.findElement(dropDown).click();
 
@@ -117,6 +134,7 @@ public class homePage extends BaseClass {
 	}
 
 	public void displayErrorMsg() throws IOException {
+		WebDriver driver = getDriver();
 		String text = driver.findElement(errorMessage).getText();
 		Screenshot.takeScreenshot("Capture error message");
 		LoggerLoad.info("The error message is" + text);
@@ -124,6 +142,7 @@ public class homePage extends BaseClass {
 	}
 
 	public void displayalertMsg() throws IOException {
+		WebDriver driver = getDriver();
 		String text1 = driver.findElement(errorMessage).getText();
 		Screenshot.takeScreenshot("Capture alert message");
 		LoggerLoad.info("The alert message is " + text1);
@@ -131,11 +150,13 @@ public class homePage extends BaseClass {
 	}
 
 	public void signIn() throws InterruptedException {
+		WebDriver driver = getDriver();
 
 		driver.findElement(signIn).click();
 	}
 
 	public void register() throws InterruptedException {
+		WebDriver driver = getDriver();
 
 		driver.findElement(register).click();
 	}

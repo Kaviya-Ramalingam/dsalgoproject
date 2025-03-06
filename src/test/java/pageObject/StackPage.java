@@ -2,6 +2,8 @@ package pageObject;
 
 import java.io.IOException;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
 import base.BaseClass;
 import utility.LoggerLoad;
 
@@ -15,40 +17,42 @@ public class StackPage extends BaseClass {
 	By topicStack = By.xpath("//a[@href='operations-in-stack']");
 	By PracticeQue = By.xpath("//a[text()='Practice Questions']");
 
+
+
 	public void clickStack() throws IOException {
 
-		driver.findElement(dropdown).click();
-		driver.findElement(Stack).click();
+		getDriver().findElement(dropdown).click();
+		getDriver().findElement(Stack).click();
 		LoggerLoad.info("user is on  stack page");
 	}
 
 	public void AccessStack(String phythonCode) {
 
-		int size = driver.findElements(Topic).size();
+		int size = getDriver().findElements(Topic).size();
 		for (int j = 1; j <= size; j++) {
 
 			By Topic = By.xpath("//body/div/ul[" + j + "]/a[@class='list-group-item']");
 
-			driver.findElement(Topic).click();
-			driver.findElement(tryHere).click();
-			driver.findElement(textInput).sendKeys(phythonCode);
-			driver.findElement(Run).click();
+			getDriver().findElement(Topic).click();
+			getDriver().findElement(tryHere).click();
+			getDriver().findElement(textInput).sendKeys(phythonCode);
+			getDriver().findElement(Run).click();
 
 			try {
-				driver.switchTo().alert().accept();
+				getDriver().switchTo().alert().accept();
 			}
 
 			catch (Exception e) {
 
 			}
-			driver.navigate().back();
-			driver.navigate().back();
+			getDriver().navigate().back();
+			getDriver().navigate().back();
 		}
 	}
 
 	public void PracticeQues() {
 
-		driver.findElement(topicStack).click();
-		driver.findElement(PracticeQue).click();
+		getDriver().findElement(topicStack).click();
+		getDriver().findElement(PracticeQue).click();
 	}
 }

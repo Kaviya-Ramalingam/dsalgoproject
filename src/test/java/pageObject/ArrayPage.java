@@ -3,10 +3,13 @@ package pageObject;
 import java.io.IOException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+
 import base.BaseClass;
 import utility.LoggerLoad;
 
 public class ArrayPage extends BaseClass {
+	
 	By dropdown = By.xpath("//a[@class='nav-link dropdown-toggle']");
 	By array = By.xpath("//div[@class='nav-item dropdown show']//div//a[1]");
 	By arraypython = By.xpath("//a[text()='Arrays in Python']");
@@ -20,57 +23,60 @@ public class ArrayPage extends BaseClass {
 	By square = By.xpath("//a[text()='Squares of  a Sorted Array']");
 	By PQTopics = By.xpath("//body//div[@class='list-group'][' +j+']");
 	By Run = By.xpath("//button[@type='button']");
+	
+	
 
 	public void dropdown() {
-		driver.findElement(dropdown).click();
-		driver.findElement(array).click();
+		
+		getDriver().findElement(dropdown).click();
+		getDriver().findElement(array).click();
 		LoggerLoad.info("user is on Array page");
 	}
 
 	public void performarray(String phythonCode) throws IOException {
 
-		int size = driver.findElements(Topic).size();
+		int size = getDriver().findElements(Topic).size();
 		for (int j = 1; j <= size; j++) {
 			By Topic = By.xpath("//body/div/ul[" + j + "]/a[@class='list-group-item']");
 
-			driver.findElement(Topic).click();
-			driver.findElement(tryHere).click();
-			driver.findElement(textInput).sendKeys(phythonCode);
-			driver.findElement(Run).click();
+			getDriver().findElement(Topic).click();
+			getDriver().findElement(tryHere).click();
+			getDriver().findElement(textInput).sendKeys(phythonCode);
+			getDriver().findElement(Run).click();
 
 			try {
-				driver.switchTo().alert().accept();
+				getDriver().switchTo().alert().accept();
 			} catch (Exception e) {
 
 			}
 
-			driver.navigate().back();
-			driver.navigate().back();
+			getDriver().navigate().back();
+			getDriver().navigate().back();
 		}
 
 	}
 
 	public void practiceQarray(String Code) throws IOException {
-		driver.findElement(arraypython).click();
-		driver.findElement(practiceQ).click();
+		getDriver().findElement(arraypython).click();
+		getDriver().findElement(practiceQ).click();
 
-		int size = driver.findElements(PQTopics).size();
+		int size = getDriver().findElements(PQTopics).size();
 
 		for (int j = 1; j <= size; j++) {
 			By TopicS = By.xpath("//body//div[@class='list-group'][" + j + "]");
-			driver.findElement(TopicS).click();
-			driver.findElement(textInput).sendKeys(Keys.DELETE);
-			driver.findElement(textInput).sendKeys(Code);
-			driver.findElement(Run).click();
+			getDriver().findElement(TopicS).click();
+			getDriver().findElement(textInput).sendKeys(Keys.DELETE);
+			getDriver().findElement(textInput).sendKeys(Code);
+			getDriver().findElement(Run).click();
 
 			try {
-				driver.switchTo().alert().accept();
+				getDriver().switchTo().alert().accept();
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
-			driver.navigate().back();
+			getDriver().navigate().back();
 		}
-		driver.navigate().back();
+		getDriver().navigate().back();
 
 	}
 

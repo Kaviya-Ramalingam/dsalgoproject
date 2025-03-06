@@ -2,6 +2,8 @@ package pageObject;
 
 import java.io.IOException;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
 import base.BaseClass;
 import utility.LoggerLoad;
 
@@ -16,40 +18,41 @@ public class LinkedlistPage extends BaseClass {
 	By Run = By.xpath("//button[@type='button']");
 	By Linkedlisttopic = By.xpath("//a[text()='Introduction']");
 
+	
 	public void clickLinkedlist() throws IOException {
-		driver.findElement(dropDown).click();
-		driver.findElement(linkedList).click();
+		getDriver().findElement(dropDown).click();
+		getDriver().findElement(linkedList).click();
 		LoggerLoad.info("user is on linkedList page");
 	}
 
 	public void AccessLinkedlist(String phythonCode) {
 
-		int size = driver.findElements(Topic).size();
+		int size = getDriver().findElements(Topic).size();
 		for (int j = 1; j <= size; j++) {
 
 			By Topic = By.xpath("//body/div/ul[" + j + "]/a[@class='list-group-item']");
 
-			driver.findElement(Topic).click();
-			driver.findElement(tryHere).click();
-			driver.findElement(textInput).sendKeys(phythonCode);
-			driver.findElement(Run).click();
+			getDriver().findElement(Topic).click();
+			getDriver().findElement(tryHere).click();
+			getDriver().findElement(textInput).sendKeys(phythonCode);
+			getDriver().findElement(Run).click();
 
 			try {
-				driver.switchTo().alert().accept();
+				getDriver().switchTo().alert().accept();
 			}
 
 			catch (Exception e) {
 
 			}
-			driver.navigate().back();
-			driver.navigate().back();
+			getDriver().navigate().back();
+			getDriver().navigate().back();
 		}
 
 	}
 
 	public void PracticeQ() {
 
-		driver.findElement(Linkedlisttopic).click();
-		driver.findElement(PracticeQues).click();
+		getDriver().findElement(Linkedlisttopic).click();
+		getDriver().findElement(PracticeQues).click();
 	}
 }
