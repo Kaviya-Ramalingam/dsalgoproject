@@ -14,8 +14,9 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>testcasetestng.xml</suiteXmlFile>
 					</suiteXmlFiles>
-					<parallel>tests</parallel>
-					<threadcount>2</threadcount>
+					<!--thread count is already mentioned in testng.xml , no need to mention here-->
+				<!--	<parallel>tests</parallel>  
+					<threadcount>2</threadcount> -->
 				</configuration>
 			</plugin>
 			<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
